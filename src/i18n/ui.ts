@@ -20,31 +20,43 @@ export const labels = {
     "home.description": "🚀 Windows modificado para gaming y rendimiento",
     "home.ques": "¿Qué es CodeXtremeOS?",
     "home.opti": "Optimización Extrema",
-    "home.desopti": "ISO modificada de solo 3.2 GB con máximo rendimiento para gaming y productividad.",
-    "home.dev.des": "Creada por CodeFlow con meses de pruebas y optimizaciones para un rendimiento extremo.",
+    "home.desopti":
+      "ISO modificada de solo 3.2 GB con máximo rendimiento para gaming y productividad.",
+    "home.dev.des":
+      "Creada por CodeFlow con meses de pruebas y optimizaciones para un rendimiento extremo.",
     "home.safety": "Seguridad Garantizada",
-    "home.safe.des": "Con las últimas actualizaciones de seguridad y protección contra malware.",
+    "home.safe.des":
+      "Con las últimas actualizaciones de seguridad y protección contra malware.",
     "home.xbox": "Xbox Live",
-    "home.xbox.des": "Conéctate a Xbox Live y disfruta de tus juegos favoritos en tu PC.",
+    "home.xbox.des":
+      "Conéctate a Xbox Live y disfruta de tus juegos favoritos en tu PC.",
     "home.update": "Actualizaciones Inteligentes",
-    "home.update.des": "Solo actualizaciones críticas y de seguridad, sin interrupciones.",
+    "home.update.des":
+      "Solo actualizaciones críticas y de seguridad, sin interrupciones.",
     "home.performance": "Rendimiento Extremo",
-    "home.performance.des": "Con un rendimiento extremo para gaming y productividad.",
+    "home.performance.des":
+      "Con un rendimiento extremo para gaming y productividad.",
     "home.drivers": "Controladores Actualizados",
     "home.drivers.des": "Controladores actualizados hasta enero de 2025",
     "home.appearance": "Apariencia",
-    "home.appearance.des": "Herramientas para personalizar la apariencia de Windows sin consumo de recursos.",
+    "home.appearance.des":
+      "Herramientas para personalizar la apariencia de Windows sin consumo de recursos.",
     "home.support": "Soporte 24/7",
-    "home.support.des": "Comunidad activa y Soporte técnico 24/7 para resolver tus dudas y problemas.",
+    "home.support.des":
+      "Comunidad activa y Soporte técnico 24/7 para resolver tus dudas y problemas.",
     "home.features": "Características Clave",
     "home.low": "🔄 Bajo Consumo de Recursos",
-    "home.low.des": "Con un bajo consumo de recursos para un rendimiento extremo.",
+    "home.low.des":
+      "Con un bajo consumo de recursos para un rendimiento extremo.",
     "home.compatibility": "🎮 Compatibilidad",
-    "home.compatibility.des": "Soporte para juegos AAA y aplicaciones profesionales.",
+    "home.compatibility.des":
+      "Soporte para juegos AAA y aplicaciones profesionales.",
     "home.security": "🛡️ Seguridad",
-    "home.security.des": "Con las últimas actualizaciones de seguridad y protección contra malware.",
+    "home.security.des":
+      "Con las últimas actualizaciones de seguridad y protección contra malware.",
     "home.personalization": "✨ Personalización",
-    "home.personalization.des": "Con herramientas populares para personalizar la apariencia de Windows",
+    "home.personalization.des":
+      "Con herramientas populares para personalizar la apariencia de Windows",
     "home.go": "¿Listo para empezar?",
 
     // =========== Sección NTLite =========== //
@@ -60,11 +72,15 @@ export const labels = {
     "footer.connect": "Conectar",
     "footer.updates": "Actualizaciones",
     "footer.subscribe": "Suscribirse",
-    "footer.newsletter": "Recibe noticias sobre nuevas versiones y características",
+    "footer.newsletter":
+      "Recibe noticias sobre nuevas versiones y características",
     "footer.email.placeholder": "Email",
     "footer.copyright": "© 2025 CodeFlow. Todos los derechos reservados.",
     "footer.privacy": "Privacidad",
     "footer.terms": "Términos",
+    "footer.github.title": "Proyecto CodeXtreme ",
+    "footer.github.description": "Descarga desde GitHub",
+    "footer.github.star": "Estrella en GitHub",
 
     // =========== Accesibilidad =========== //
     "aria.social.twitter": "Enlace a Twitter de CodeFlow",
@@ -76,42 +92,55 @@ export const labels = {
 
     // =========== Guías =========== //
     "guides.title": "Guías CodeXtremeOS",
-    "guides.description": "🚀 Domina la optimización con nuestras guías paso a paso.",
+    "guides.description":
+      "🚀 Domina la optimización con nuestras guías paso a paso.",
     "guides.meta_title": "Guías y Tutoriales - CodeXtremeOS",
     "guides.support.title": "¡Apoya a los creadores!",
-    "guides.support.description1": "Estas guías son posibles gracias a la comunidad. Por favor considera",
+    "guides.support.description1":
+      "Estas guías son posibles gracias a la comunidad. Por favor considera",
     "guides.support.emphasis1": "dar like 👍",
     "guides.support.description2": "y",
     "guides.support.emphasis2": "suscribirte 🔔",
     "guides.support.description3": "a los canales originales",
     "guides.guide1.title": "Crear tu propia ISO Optimizada",
-    "guides.guide1.description": "Guía completa para crear y personalizar tu ISO de Windows optimizada",
+    "guides.guide1.description":
+      "Guía completa para crear y personalizar tu ISO de Windows optimizada",
     "guides.guide2.title": "Mega Pack Optimización",
     "guides.guide2.description": "Optimiza tu PC un 500% con este mega Pack",
     "guides.guide3.title": "Personalización",
-    "guides.guide3.description": "Haz que tu Windows luzca genial sin consumo de recursos",
+    "guides.guide3.description":
+      "Haz que tu Windows luzca genial sin consumo de recursos",
     "guides.guide4.title": "Directivas Ocultas",
-    "guides.guide4.description": "Activa directivas ocultas para sacar el máximo rendimiento",
+    "guides.guide4.description":
+      "Activa directivas ocultas para sacar el máximo rendimiento",
     "guides.view_more": "Ver más",
     "guides.guide5.title": "Optimización de Recursos",
-    "guides.guide5.description": "Aprende a reducir el uso de CPU y RAM para maximizar el rendimiento de tu ISO.",
+    "guides.guide5.description":
+      "Aprende a reducir el uso de CPU y RAM para maximizar el rendimiento de tu ISO.",
     "guides.guide6.title": "Instalación Limpia",
-    "guides.guide6.description": "Descubre cómo configurar tareas automáticas tras la instalación para mantener tu sistema optimizado.",
+    "guides.guide6.description":
+      "Descubre cómo configurar tareas automáticas tras la instalación para mantener tu sistema optimizado.",
     "guides.guide7.title": "Aumente el Rendimiento",
-    "guides.guide7.description": "Descubre cómo aumentar el rendimiento de tu Windows 11 con estos consejos y trucos.",
+    "guides.guide7.description":
+      "Descubre cómo aumentar el rendimiento de tu Windows 11 con estos consejos y trucos.",
     "guides.guide8.title": "El mejor Software",
-    "guides.guide8.description": "Descubre el mejor software para Windows 10/11 en 2025.",
+    "guides.guide8.description":
+      "Descubre el mejor software para Windows 10/11 en 2025.",
 
     // =========== Herramientas =========== //
     "tools.meta_title": "Herramientas de Optimización - CodeXtremeOS",
     "tools.title": "Personalización Pro",
-    "tools.subtitle": "🚀 Herramientas de Optimización - Seguridad - Personalización",
+    "tools.subtitle":
+      "🚀 Herramientas de Optimización - Seguridad - Personalización",
     "tools.opensource.title": "¡Importante!",
-    "tools.opensource.description": "La mayoría de herramientas aquí recomendadas son Open Source. Si las encuentras útiles, por favor considera dar una estrella en sus repositorios oficiales para apoyar a los desarrolladores.",
+    "tools.opensource.description":
+      "La mayoría de herramientas aquí recomendadas son Open Source. Si las encuentras útiles, por favor considera dar una estrella en sus repositorios oficiales para apoyar a los desarrolladores.",
     "tools.opensource.how_to_help": "¿Cómo ayudar?",
     "tools.opensource.step1": "Visita el enlace GitHub de cada herramienta",
-    "tools.opensource.step2": 'Haz clic en el botón "⭐ Star" en la esquina superior derecha',
-    "tools.opensource.step3": "¡Listo! Estarás contribuyendo al crecimiento del proyecto",
+    "tools.opensource.step2":
+      'Haz clic en el botón "⭐ Star" en la esquina superior derecha',
+    "tools.opensource.step3":
+      "¡Listo! Estarás contribuyendo al crecimiento del proyecto",
     "tools.category1.title": "🛠 Optimización",
     "tools.category2.title": "🎨 Personalización",
     "tools.category3.title": "🔒 Seguridad",
@@ -135,32 +164,45 @@ export const labels = {
     "tools.tags.medium_risk": "Riesgo medio",
     "tools.download": "Descargar",
 
-// =========== Software =========== //
+    // =========== Software =========== //
     "software.meta_title": "Software Esencial - CodeXtremeOS",
     "software.title": "Software Recomendado para Todos",
-    "software.subtitle": "🚀 Explora software confiable que se ajuste a tus necesidades",
+    "software.subtitle":
+      "🚀 Explora software confiable que se ajuste a tus necesidades",
     "software.opensource.title": "Aviso Importante",
-    "software.opensource.description": "Ten en cuenta que el software listado aquí se ofrece tal cual.",
-    "software.opensource.description2": "Úsalo bajo tu propio riesgo y asegúrate de que sea compatible con tu sistema antes de la instalación.",
-    "software.opensource.how_to_help": "¿Cómo sacar el máximo provecho de estas herramientas?",
-    "software.opensource.step1": "Revisa los requisitos y la compatibilidad del software",
-    "software.opensource.step2": "Asegúrate de que tu sistema cumpla con las especificaciones mínimas",
-    "software.opensource.step3": "Instala y usa de acuerdo con las instrucciones del desarrollador. Siempre realiza una copia de seguridad de tus datos antes de hacer cambios.",
+    "software.opensource.description":
+      "Ten en cuenta que el software listado aquí se ofrece tal cual.",
+    "software.opensource.description2":
+      "Úsalo bajo tu propio riesgo y asegúrate de que sea compatible con tu sistema antes de la instalación.",
+    "software.opensource.how_to_help":
+      "¿Cómo sacar el máximo provecho de estas herramientas?",
+    "software.opensource.step1":
+      "Revisa los requisitos y la compatibilidad del software",
+    "software.opensource.step2":
+      "Asegúrate de que tu sistema cumpla con las especificaciones mínimas",
+    "software.opensource.step3":
+      "Instala y usa de acuerdo con las instrucciones del desarrollador. Siempre realiza una copia de seguridad de tus datos antes de hacer cambios.",
     "software.category1.title": "🛠 Drivers y Runtime",
     "software.category2.title": "🎨 Aplicaciones de Producción",
     "software.category3.title": "Software para Windows",
     "software.tool1.name": "Runtime de DirectX",
-    "software.tool1.description": "Entorno de ejecución para DirectX 9, 10, 11 y 12",
+    "software.tool1.description":
+      "Entorno de ejecución para DirectX 9, 10, 11 y 12",
     "software.tool2.name": "Runtime de VC++",
-    "software.tool2.description": "Bibliotecas de ejecución de Visual C++ para Windows",
+    "software.tool2.description":
+      "Bibliotecas de ejecución de Visual C++ para Windows",
     "software.tool3.name": "Runtime de escritorio .NET 5.0",
-    "software.tool3.description": "Entorno de ejecución para aplicaciones de escritorio .NET 5.0",
+    "software.tool3.description":
+      "Entorno de ejecución para aplicaciones de escritorio .NET 5.0",
     "software.tool4.name": "Runtime de escritorio .NET 6.0",
-    "software.tool4.description": "Entorno de ejecución para aplicaciones de escritorio .NET 6.0",
+    "software.tool4.description":
+      "Entorno de ejecución para aplicaciones de escritorio .NET 6.0",
     "software.tool5.name": "Runtime de escritorio .NET 7.0",
-    "software.tool5.description": "Entorno de ejecución para aplicaciones de escritorio .NET 7.0",
+    "software.tool5.description":
+      "Entorno de ejecución para aplicaciones de escritorio .NET 7.0",
     "software.tool6.name": "Runtime de escritorio .NET 8.0",
-    "software.tool6.description": "Entorno de ejecución para aplicaciones de escritorio .NET 8.0",
+    "software.tool6.description":
+      "Entorno de ejecución para aplicaciones de escritorio .NET 8.0",
     "software.tags.windows": "Windows 10/11",
     "software.tags.opensource": "Microsoft",
     "software.tags.medium_risk": "Requerido",
@@ -170,53 +212,69 @@ export const labels = {
     "software.tool7.name": "Runtime de Edge WebView2",
     "software.tool7.description": "Runtime de WebView2 para Microsoft Edge",
     "software.tool8.name": "GIMP",
-    "software.tool8.description": "Editor de imágenes gratuito y de código abierto.",
+    "software.tool8.description":
+      "Editor de imágenes gratuito y de código abierto.",
     "software.tool9.name": "Krita",
     "software.tool9.description": "Software de pintura digital para artistas.",
     "software.tool10.name": "Blender",
-    "software.tool10.description": "Herramienta 3D para modelado, animación y renderizado.",
+    "software.tool10.description":
+      "Herramienta 3D para modelado, animación y renderizado.",
     "software.tool11.name": "Inkscape",
-    "software.tool11.description": "Editor de gráficos vectoriales gratuito y de código abierto.",
+    "software.tool11.description":
+      "Editor de gráficos vectoriales gratuito y de código abierto.",
     "software.tool12.name": "Darktable",
-    "software.tool12.description": "Software de edición de fotos con flujo de trabajo no destructivo.",
+    "software.tool12.description":
+      "Software de edición de fotos con flujo de trabajo no destructivo.",
     "software.tool13.name": "Audacity",
-    "software.tool13.description": "Editor de audio gratuito y de código abierto.",
+    "software.tool13.description":
+      "Editor de audio gratuito y de código abierto.",
     "software.tool14.name": "OBS Studio",
-    "software.tool14.description": "Software para grabación y transmisión en vivo.",
+    "software.tool14.description":
+      "Software para grabación y transmisión en vivo.",
     "software.tool15.name": "Notepad++",
     "software.tool15.description": "Editor de texto avanzado para Windows.",
     "software.tool16.name": "7-Zip",
-    "software.tool16.description": "Herramienta de compresión y descompresión de archivos.",
+    "software.tool16.description":
+      "Herramienta de compresión y descompresión de archivos.",
     "software.tool17.name": "VLC Media Player",
     "software.tool17.description": "Reproductor multimedia multiplataforma.",
     "software.tool18.name": "LibreOffice",
-    "software.tool18.description": "Suite ofimática gratuita y de código abierto.",
+    "software.tool18.description":
+      "Suite ofimática gratuita y de código abierto.",
     "software.tool19.name": "Paint.NET",
-    "software.tool19.description": "Editor de imágenes simple pero potente para Windows.",
+    "software.tool19.description":
+      "Editor de imágenes simple pero potente para Windows.",
     "software.tool20.name": "WinRAR",
-    "software.tool20.description": "Herramienta de compresión de archivos popular.",
+    "software.tool20.description":
+      "Herramienta de compresión de archivos popular.",
     "software.tool21.name": "CPU-Z",
     "software.tool21.description": "Herramienta de diagnóstico del sistema.",
 
     // =========== Descargas =========== //
     "downloads.hero_description": "🚀 ISOs modificadas",
     "downloads.announcement.title": "🛠️ Importante:",
-    "downloads.announcement.full_text": "Estas ISOs fueron creadas con NTLite, herramienta que cualquiera puede usar para crear su propia ISO personalizada.",
+    "downloads.announcement.full_text":
+      "Estas ISOs fueron creadas con NTLite, herramienta que cualquiera puede usar para crear su propia ISO personalizada.",
     "downloads.announcement.security_title": "⚠️ Recomendación de seguridad:",
-    "downloads.announcement.recommendation": "Para máxima confiabilidad, te recomendamos crear tu propia versión usando:",
+    "downloads.announcement.recommendation":
+      "Para máxima confiabilidad, te recomendamos crear tu propia versión usando:",
     "downloads.announcement.official_guides": "Guías oficiales de NTLite",
     "downloads.announcement.our_guides": "Nuestras",
-    "downloads.announcement.custom_tip": "💡 Una ISO personalizada evita bloatware y se adapta exactamente a tus necesidades",
+    "downloads.announcement.custom_tip":
+      "💡 Una ISO personalizada evita bloatware y se adapta exactamente a tus necesidades",
     "downloads.latest_version.title": "🚀 Última Versión",
     "downloads.latest_version.name": "CodeXtremeOS 11",
-    "downloads.latest_version.build_info": "Build 24H2 optimizado con mejoras extremas",
-    "downloads.latest_version.build_info_23H2": "Build 23H2 con nuevas funciones",
+    "downloads.latest_version.build_info":
+      "Build 24H2 optimizado con mejoras extremas",
+    "downloads.latest_version.build_info_23H2":
+      "Build 23H2 con nuevas funciones",
     "downloads.11_versions.title": "💿​ CodeXtremeOS 11",
     "downloads.previous_versions.title": "💿​ Otras Versiones",
     "downloads.version1.name": "CodeXtremeOS 10",
     "downloads.version1.build_info": "Build 22H2 con soporte Legacy",
     "downloads.version2.name": "CodeXtremeOS 11",
-    "downloads.version2.build_info": "Build 23H2 con nuevas funciones y optimizaciones",
+    "downloads.version2.build_info":
+      "Build 23H2 con nuevas funciones y optimizaciones",
     "downloads.version3.build_info": "Build 22H2 con mejoras extremas",
     "downloads.tags.x64_uefi": "x64 UEFI",
     "downloads.tags.stable": "Estable",
@@ -230,36 +288,59 @@ export const labels = {
     "downloads.features.gaming": "Ideal para jugadores y usuarios avanzados",
     "downloads.features.security": "Seguridad mejorada y enfoque oficial",
     "downloads.long_term": "Objetivo a largo plazo",
-    "downloads.long_term_desc": "Sistema operativo refinado y optimizado para uso prolongado",
+    "downloads.long_term_desc":
+      "Sistema operativo refinado y optimizado para uso prolongado",
     "downloads.guide_info": "La guía para crear esta ISO proviene de este foro",
     "downloads.guide_link": "Guía de Hellbovine Imagen Optimizada",
     "downloads.features.iso_size": "3.6 GB ISO",
     "downloads.features.installed_size_3gb": "3.8 GB ISO",
     "downloads.features.installed_size_4gb": "4.8 GB ISO",
     "downloads.features.debloated_optimized": "Optimizada desde el inicio",
-    "downloads.features.full_updatable_build": "Versión Completa y Actualizable",
-    "downloads.features.automatic_updates_paused": "Actualizaciones Automáticas Pausadas Hasta el Año 2029",
-    "downloads.features.intel_rst_drivers": "Drivers Intel RST Integrados en la Instalación",
-    "downloads.features.extreme_performance": "Rendimiento Extremo para tus Aplicaciones y Juegos",
-    "downloads.features.uwp_apps_support": "Soporte Completo para Apps UWP, Xbox, MS Store y mucho más",
-    "downloads.features.additional_language_support": "Soporte Completo para Paquetes de Idioma Adicionales, Voz, etc.",
-    "downloads.features.optional_features_support": "Soporte Completo para todas las características opcionales, incluyendo WSA y WSL2",
-    "downloads.features.improvements_optimizations": "Mejoras y Optimización Adicionales Incluidas",
-    "downloads.features.no_preinstalled_uwp_apps": "No tiene Apps UWP Pre-instaladas",
-    "downloads.features.ms_store_installer_included": "Instalador de MS Store Incluido",
-    "downloads.features.full_featured_updatable_build": "Versión Completa y Actualizable",
-    "downloads.features.automatic_updates_paused_3000": "Actualizaciones Automáticas Pausadas Hasta el Año 2029",
-    "downloads.features.optional_system_transparency": "Incluye Transparencia del Sistema Opcional",
-    "downloads.features.optional_gallery_settings_home": "Incluye 'Galería' y 'Página de Inicio de Configuración' Opcionales",
-    "downloads.features.extreme_performance_apps_games": "Rendimiento Extremo para tus Aplicaciones y Juegos",
-    "downloads.features.integrates_intel_rst_serial_io": "Integra Drivers Intel RST y Serial IO en la Instalación",
-    "downloads.features.full_support_uwp_xbox_ms_store": "Soporte Completo para Apps UWP, Xbox, MS Store y mucho más",
-    "downloads.features.full_support_language_packs": "Soporte Completo para Paquetes de Idioma Adicionales, Voz, etc.",
-    "downloads.features.full_support_optional_features": "Soporte Completo para todas las características opcionales, incluyendo WSA y WSL2",
-    "downloads.features.enabled_rounded_corners_acrylic_mica": "Esquinas Redondeadas, Acrílico y Mica Activados por Defecto (¡Incluso en una VM!)",
-    "downloads.features_no_internet": "No requiere conexión a Internet para la instalación",
+    "downloads.features.full_updatable_build":
+      "Versión Completa y Actualizable",
+    "downloads.features.automatic_updates_paused":
+      "Actualizaciones Automáticas Pausadas Hasta el Año 2029",
+    "downloads.features.intel_rst_drivers":
+      "Drivers Intel RST Integrados en la Instalación",
+    "downloads.features.extreme_performance":
+      "Rendimiento Extremo para tus Aplicaciones y Juegos",
+    "downloads.features.uwp_apps_support":
+      "Soporte Completo para Apps UWP, Xbox, MS Store y mucho más",
+    "downloads.features.additional_language_support":
+      "Soporte Completo para Paquetes de Idioma Adicionales, Voz, etc.",
+    "downloads.features.optional_features_support":
+      "Soporte Completo para todas las características opcionales, incluyendo WSA y WSL2",
+    "downloads.features.improvements_optimizations":
+      "Mejoras y Optimización Adicionales Incluidas",
+    "downloads.features.no_preinstalled_uwp_apps":
+      "No tiene Apps UWP Pre-instaladas",
+    "downloads.features.ms_store_installer_included":
+      "Instalador de MS Store Incluido",
+    "downloads.features.full_featured_updatable_build":
+      "Versión Completa y Actualizable",
+    "downloads.features.automatic_updates_paused_3000":
+      "Actualizaciones Automáticas Pausadas Hasta el Año 2029",
+    "downloads.features.optional_system_transparency":
+      "Incluye Transparencia del Sistema Opcional",
+    "downloads.features.optional_gallery_settings_home":
+      "Incluye 'Galería' y 'Página de Inicio de Configuración' Opcionales",
+    "downloads.features.extreme_performance_apps_games":
+      "Rendimiento Extremo para tus Aplicaciones y Juegos",
+    "downloads.features.integrates_intel_rst_serial_io":
+      "Integra Drivers Intel RST y Serial IO en la Instalación",
+    "downloads.features.full_support_uwp_xbox_ms_store":
+      "Soporte Completo para Apps UWP, Xbox, MS Store y mucho más",
+    "downloads.features.full_support_language_packs":
+      "Soporte Completo para Paquetes de Idioma Adicionales, Voz, etc.",
+    "downloads.features.full_support_optional_features":
+      "Soporte Completo para todas las características opcionales, incluyendo WSA y WSL2",
+    "downloads.features.enabled_rounded_corners_acrylic_mica":
+      "Esquinas Redondeadas, Acrílico y Mica Activados por Defecto (¡Incluso en una VM!)",
+    "downloads.features_no_internet":
+      "No requiere conexión a Internet para la instalación",
     "downloads.features_telemetry": "Telemetría y Rastreo Eliminados",
-    "downloads.features.additional_improvements_optimizations": "Mejoras y Optimización Adicionales Incluidas",
+    "downloads.features.additional_improvements_optimizations":
+      "Mejoras y Optimización Adicionales Incluidas",
   },
   en: {
     // =========== Navigation =========== //
@@ -277,31 +358,40 @@ export const labels = {
     "home.description": "🚀 Modified Windows for gaming and performance",
     "home.ques": "What is CodeXtremeOS?",
     "home.opti": "Extreme Optimization",
-    "home.desopti": "Modified ISO of only 3.2 GB with maximum performance for gaming and productivity.",
-    "home.dev.des": "Created by CodeFlow with months of testing and optimizations for extreme performance.",
+    "home.desopti":
+      "Modified ISO of only 3.2 GB with maximum performance for gaming and productivity.",
+    "home.dev.des":
+      "Created by CodeFlow with months of testing and optimizations for extreme performance.",
     "home.safety": "Guaranteed Security",
     "home.safe.des": "With the latest security updates and malware protection.",
     "home.xbox": "Xbox Live",
-    "home.xbox.des": "Connect to Xbox Live and enjoy your favorite games on your PC.",
+    "home.xbox.des":
+      "Connect to Xbox Live and enjoy your favorite games on your PC.",
     "home.update": "Smart Updates",
     "home.update.des": "Only critical and security updates, no interruptions.",
     "home.performance": "Extreme Performance",
-    "home.performance.des": "With extreme performance for gaming and productivity.",
+    "home.performance.des":
+      "With extreme performance for gaming and productivity.",
     "home.drivers": "Updated Drivers",
     "home.drivers.des": "Drivers updated until January 2025",
     "home.appearance": "Appearance",
-    "home.appearance.des": "Tools to customize the appearance of Windows without resource consumption.",
+    "home.appearance.des":
+      "Tools to customize the appearance of Windows without resource consumption.",
     "home.support": "24/7 Support",
-    "home.support.des": "Active community and 24/7 technical support to resolve your doubts and issues.",
+    "home.support.des":
+      "Active community and 24/7 technical support to resolve your doubts and issues.",
     "home.features": "Key Features",
     "home.low": "🔄 Low Resource Consumption",
     "home.low.des": "With low resource consumption for extreme performance.",
     "home.compatibility": "🎮 Compatibility",
-    "home.compatibility.des": "Support for AAA games and professional applications.",
+    "home.compatibility.des":
+      "Support for AAA games and professional applications.",
     "home.security": "🛡️ Security",
-    "home.security.des": "With the latest security updates and malware protection.",
+    "home.security.des":
+      "With the latest security updates and malware protection.",
     "home.personalization": "✨ Personalization",
-    "home.personalization.des": "With popular tools to customize the appearance of Windows",
+    "home.personalization.des":
+      "With popular tools to customize the appearance of Windows",
     "home.go": "Ready to start?",
 
     // =========== NTLite Section =========== //
@@ -322,6 +412,9 @@ export const labels = {
     "footer.copyright": "© 2025 CodeFlow. All rights reserved.",
     "footer.privacy": "Privacy",
     "footer.terms": "Terms",
+    "footer.github.title": "Project CodeXtreme",
+    "footer.github.description": "Download the project on GitHub",
+    "footer.github.star": "Star on GitHub",
 
     // =========== Accessibility =========== //
     "aria.social.twitter": "Link to CodeFlow's Twitter",
@@ -333,42 +426,54 @@ export const labels = {
 
     // =========== Guides ===========  //
     "guides.title": "CodeXtremeOS Guides",
-    "guides.description": "🚀 Master optimization with our step-by-step guides.",
+    "guides.description":
+      "🚀 Master optimization with our step-by-step guides.",
     "guides.meta_title": "Guides and Tutorials - CodeXtremeOS",
     "guides.support.title": "Support the creators!",
-    "guides.support.description1": "These guides are possible thanks to the community. Please consider",
+    "guides.support.description1":
+      "These guides are possible thanks to the community. Please consider",
     "guides.support.emphasis1": "liking 👍",
     "guides.support.description2": "and",
     "guides.support.emphasis2": "subscribing 🔔",
     "guides.support.description3": "to the original channels",
     "guides.guide1.title": "Create Your Own Optimized ISO",
-    "guides.guide1.description": "Complete guide to create and customize your optimized Windows ISO",
+    "guides.guide1.description":
+      "Complete guide to create and customize your optimized Windows ISO",
     "guides.guide2.title": "Mega Optimization Pack",
     "guides.guide2.description": "Optimize your PC by 500% with this mega pack",
     "guides.guide3.title": "Personalization",
-    "guides.guide3.description": "Make your Windows look great without resource consumption",
+    "guides.guide3.description":
+      "Make your Windows look great without resource consumption",
     "guides.guide4.title": "Hidden Policies",
-    "guides.guide4.description": "Enable hidden policies to get the most out of your performance",
+    "guides.guide4.description":
+      "Enable hidden policies to get the most out of your performance",
     "guides.view_more": "View more",
     "guides.guide5.title": "Resource Optimization",
-    "guides.guide5.description": "Learn to reduce CPU and RAM usage to maximize the performance of your ISO.",
+    "guides.guide5.description":
+      "Learn to reduce CPU and RAM usage to maximize the performance of your ISO.",
     "guides.guide6.title": "Clean Installation",
-    "guides.guide6.description": "Discover how to set up automatic tasks after installation to keep your system optimized.",
+    "guides.guide6.description":
+      "Discover how to set up automatic tasks after installation to keep your system optimized.",
     "guides.guide7.title": "Increase Performance",
-    "guides.guide7.description": "Discover how to increase the performance of your Windows 11 with these tips and tricks.",
+    "guides.guide7.description":
+      "Discover how to increase the performance of your Windows 11 with these tips and tricks.",
     "guides.guide8.title": "The Best Software",
-    "guides.guide8.description": "Discover the best software for Windows 10/11 in 2025.",
+    "guides.guide8.description":
+      "Discover the best software for Windows 10/11 in 2025.",
 
     // =========== Tools =========== //
     "tools.meta_title": "Optimization Tools - CodeXtremeOS",
     "tools.title": "Pro Personalization",
     "tools.subtitle": "🚀 Optimization - Security - Personalization Tools",
     "tools.opensource.title": "Important!",
-    "tools.opensource.description": "Most of the tools recommended here are Open Source. If you find them useful, please consider giving a star on their official repositories to support the developers.",
+    "tools.opensource.description":
+      "Most of the tools recommended here are Open Source. If you find them useful, please consider giving a star on their official repositories to support the developers.",
     "tools.opensource.how_to_help": "How to help?",
     "tools.opensource.step1": "Visit the GitHub link of each tool",
-    "tools.opensource.step2": 'Click the "⭐ Star" button in the top right corner',
-    "tools.opensource.step3": "Done! You will be contributing to the growth of the project",
+    "tools.opensource.step2":
+      'Click the "⭐ Star" button in the top right corner',
+    "tools.opensource.step3":
+      "Done! You will be contributing to the growth of the project",
     "tools.category1.title": "🛠 Optimization",
     "tools.category2.title": "🎨 Personalization",
     "tools.category3.title": "🔒 Security",
@@ -397,12 +502,18 @@ export const labels = {
     "software.title": "Recommended Software for Everyone",
     "software.subtitle": "🚀 Explore reliable software that fit your needs",
     "software.opensource.title": "Important Disclaimer",
-    "software.opensource.description": "Please note that the software listed here is provided as-is.", 
-    "software.opensource.description2": "Use at your own risk and ensure compatibility with your system before installation.",
-    "software.opensource.how_to_help": "How to Get the Most Out of These Tools?",
-    "software.opensource.step1": "Review the software requirements and compatibility",
-    "software.opensource.step2": "Ensure your system meets the minimum specifications",
-    "software.opensource.step3": "Install and use according to the developer’s instructions. Always back up your data before making changes.",
+    "software.opensource.description":
+      "Please note that the software listed here is provided as-is.",
+    "software.opensource.description2":
+      "Use at your own risk and ensure compatibility with your system before installation.",
+    "software.opensource.how_to_help":
+      "How to Get the Most Out of These Tools?",
+    "software.opensource.step1":
+      "Review the software requirements and compatibility",
+    "software.opensource.step2":
+      "Ensure your system meets the minimum specifications",
+    "software.opensource.step3":
+      "Install and use according to the developer’s instructions. Always back up your data before making changes.",
     "software.category1.title": "🛠 Drivers & Runtime",
     "software.category2.title": "🎨 Production Apps",
     "software.category3.title": "Windows Software",
@@ -431,9 +542,11 @@ export const labels = {
     "software.tool9.name": "Krita",
     "software.tool9.description": "Digital painting software for artists.",
     "software.tool10.name": "Blender",
-    "software.tool10.description": "3D tool for modeling, animation, and rendering.",
+    "software.tool10.description":
+      "3D tool for modeling, animation, and rendering.",
     "software.tool11.name": "Inkscape",
-    "software.tool11.description": "Free and open-source vector graphics editor.",
+    "software.tool11.description":
+      "Free and open-source vector graphics editor.",
     "software.tool12.name": "Darktable",
     "software.tool12.description": "Non-destructive photo editing software.",
     "software.tool13.name": "Audacity",
@@ -449,7 +562,8 @@ export const labels = {
     "software.tool18.name": "LibreOffice",
     "software.tool18.description": "Free and open-source office suite.",
     "software.tool19.name": "Paint.NET",
-    "software.tool19.description": "Simple yet powerful image editor for Windows.",
+    "software.tool19.description":
+      "Simple yet powerful image editor for Windows.",
     "software.tool20.name": "WinRAR",
     "software.tool20.description": "Popular file compression tool.",
     "software.tool21.name": "CPU-Z",
@@ -458,22 +572,27 @@ export const labels = {
     // =========== Downloads =========== //
     "downloads.hero_description": "🚀 Modified ISOs",
     "downloads.announcement.title": "🛠️ Important:",
-    "downloads.announcement.full_text": "These ISOs were created with NTLite, a tool anyone can use to create their own customized ISO.",
+    "downloads.announcement.full_text":
+      "These ISOs were created with NTLite, a tool anyone can use to create their own customized ISO.",
     "downloads.announcement.security_title": "⚠️ Security Recommendation:",
-    "downloads.announcement.recommendation": "For maximum reliability, we recommend creating your own version using:",
+    "downloads.announcement.recommendation":
+      "For maximum reliability, we recommend creating your own version using:",
     "downloads.announcement.official_guides": "NTLite official guides",
     "downloads.announcement.our_guides": "Our",
-    "downloads.announcement.custom_tip": "💡 A custom ISO avoids bloatware and adapts exactly to your needs",
+    "downloads.announcement.custom_tip":
+      "💡 A custom ISO avoids bloatware and adapts exactly to your needs",
     "downloads.latest_version.title": "🚀 Latest Version",
     "downloads.latest_version.name": "CodeXtremeOS 11",
-    "downloads.latest_version.build_info": "Build 24H2 optimized with extreme enhancements",
+    "downloads.latest_version.build_info":
+      "Build 24H2 optimized with extreme enhancements",
     "downloads.latest_version.build_info_23H2": "Build 23H2 with new features",
     "downloads.11_versions.title": "💿​ CodeXtremeOS 11",
     "downloads.previous_versions.title": "💿​ Other Versions",
     "downloads.version1.name": "CodeXtremeOS 10",
     "downloads.version1.build_info": "Build 22H2 with Legacy support",
     "downloads.version2.name": "CodeXtremeOS 11",
-    "downloads.version2.build_info": "Build 23H2 with new features and optimizations",
+    "downloads.version2.build_info":
+      "Build 23H2 with new features and optimizations",
     "downloads.version3.build_info": "Build 22H2 with extreme enhancements",
     "downloads.tags.x64_uefi": "x64 UEFI",
     "downloads.tags.stable": "Stable",
@@ -487,35 +606,57 @@ export const labels = {
     "downloads.features.gaming": "Ideal for gamers and advanced users",
     "downloads.features.security": "Enhanced security and official focus",
     "downloads.long_term": "Long-term goal",
-    "downloads.long_term_desc": "Refined and optimized operating system for prolonged use",
-    "downloads.guide_info": "The guide to create this ISO comes from this forum",
+    "downloads.long_term_desc":
+      "Refined and optimized operating system for prolonged use",
+    "downloads.guide_info":
+      "The guide to create this ISO comes from this forum",
     "downloads.guide_link": "Hellbovine Optimized Image Guide",
     "downloads.features.iso_size": "3.6 GB ISO",
     "downloads.features.installed_size_3gb": "3.8 GB ISO",
     "downloads.features.installed_size_4gb": "4.8 GB ISO",
     "downloads.features.debloated_optimized": "Optimized from the start",
     "downloads.features.full_updatable_build": "Full and Updatable Version",
-    "downloads.features.automatic_updates_paused": "Automatic Updates Paused Until 2029",
-    "downloads.features.intel_rst_drivers": "Intel RST Drivers Integrated in Installation",
-    "downloads.features.extreme_performance": "Extreme Performance for your Applications and Games",
-    "downloads.features.uwp_apps_support": "Full Support for UWP Apps, Xbox, MS Store, and more",
-    "downloads.features.additional_language_support": "Full Support for Additional Language Packs, Voice, etc.",
-    "downloads.features.optional_features_support": "Full Support for all optional features, including WSA and WSL2",
-    "downloads.features.improvements_optimizations": "Additional Improvements and Optimizations Included",
+    "downloads.features.automatic_updates_paused":
+      "Automatic Updates Paused Until 2029",
+    "downloads.features.intel_rst_drivers":
+      "Intel RST Drivers Integrated in Installation",
+    "downloads.features.extreme_performance":
+      "Extreme Performance for your Applications and Games",
+    "downloads.features.uwp_apps_support":
+      "Full Support for UWP Apps, Xbox, MS Store, and more",
+    "downloads.features.additional_language_support":
+      "Full Support for Additional Language Packs, Voice, etc.",
+    "downloads.features.optional_features_support":
+      "Full Support for all optional features, including WSA and WSL2",
+    "downloads.features.improvements_optimizations":
+      "Additional Improvements and Optimizations Included",
     "downloads.features.no_preinstalled_uwp_apps": "No Pre-installed UWP Apps",
-    "downloads.features.ms_store_installer_included": "MS Store Installer Included",
-    "downloads.features.full_featured_updatable_build": "Full and Updatable Version",
-    "downloads.features.automatic_updates_paused_3000": "Automatic Updates Paused Until 2029",
-    "downloads.features.optional_system_transparency": "Includes Optional System Transparency",
-    "downloads.features.optional_gallery_settings_home": "Includes Optional 'Gallery' and 'Settings Home Page'",
-    "downloads.features.extreme_performance_apps_games": "Extreme Performance for your Applications and Games",
-    "downloads.features.integrates_intel_rst_serial_io": "Integrates Intel RST and Serial IO Drivers in Installation",
-    "downloads.features.full_support_uwp_xbox_ms_store": "Full Support for UWP Apps, Xbox, MS Store, and more",
-    "downloads.features.full_support_language_packs": "Full Support for Additional Language Packs, Voice, etc.",
-    "downloads.features.full_support_optional_features": "Full Support for all optional features, including WSA and WSL2",
-    "downloads.features.enabled_rounded_corners_acrylic_mica": "Rounded Corners, Acrylic, and Mica Enabled by Default (Even in a VM!)",
-    "downloads.features_no_internet": "No Internet connection required for installation",
+    "downloads.features.ms_store_installer_included":
+      "MS Store Installer Included",
+    "downloads.features.full_featured_updatable_build":
+      "Full and Updatable Version",
+    "downloads.features.automatic_updates_paused_3000":
+      "Automatic Updates Paused Until 2029",
+    "downloads.features.optional_system_transparency":
+      "Includes Optional System Transparency",
+    "downloads.features.optional_gallery_settings_home":
+      "Includes Optional 'Gallery' and 'Settings Home Page'",
+    "downloads.features.extreme_performance_apps_games":
+      "Extreme Performance for your Applications and Games",
+    "downloads.features.integrates_intel_rst_serial_io":
+      "Integrates Intel RST and Serial IO Drivers in Installation",
+    "downloads.features.full_support_uwp_xbox_ms_store":
+      "Full Support for UWP Apps, Xbox, MS Store, and more",
+    "downloads.features.full_support_language_packs":
+      "Full Support for Additional Language Packs, Voice, etc.",
+    "downloads.features.full_support_optional_features":
+      "Full Support for all optional features, including WSA and WSL2",
+    "downloads.features.enabled_rounded_corners_acrylic_mica":
+      "Rounded Corners, Acrylic, and Mica Enabled by Default (Even in a VM!)",
+    "downloads.features_no_internet":
+      "No Internet connection required for installation",
     "downloads.features_telemetry": "Telemetry and Tracking Removed",
-    "downloads.features.additional_improvements_optimizations": "Additional Improvements and Optimizations Included",
+    "downloads.features.additional_improvements_optimizations":
+      "Additional Improvements and Optimizations Included",
   },
 };
