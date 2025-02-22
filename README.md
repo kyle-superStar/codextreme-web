@@ -4,72 +4,72 @@
 [![Astro](https://img.shields.io/badge/-Astro-FF5D01?logo=astro&logoColor=white)](https://astro.build)
 [![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 
-Sitio web oficial de **CodeXtreme** - Web informativa creada por **CodeFlow**. Proyecto open source construido con Astro y Tailwind CSS para máxima eficiencia y rendimiento.
+Official **CodeXtreme** website - Informative web created by **CodeFlow**. Open source project built with Astro and Tailwind CSS for maximum efficiency and performance.
 
-[![Desktop](https://i.imgur.com/XqhS1FZ.png)](https://www.codextreme.me/es/)
+[![Desktop](https://i.imgur.com/SJDw4y1.png)](https://www.codextreme.me)
 
-## Propósito del Proyecto
+## Project Purpose
 
-Este repositorio contiene el código fuente completo del sitio web de CodeXtremeOS, diseñado para:
+This repository contains the complete source code of the CodeXtremeOS website, designed to:
 
-- Presentar las características del sistema operativo
-- Proporcionar documentación técnica
-- Ofrecer actualizaciones y noticias
-- Mostrar capturas y demostraciones
-- Ofrecer guias y herramientas
+- Present the operating system features
+- Provide technical documentation
+- Offer updates and news
+- Show screenshots and demonstrations
+- Provide guides and tools
 
-## Características Técnicas
+## Technical Features
 
-✨ **Interfaz Moderna**  
-Diseño limpio y profesional con accesibilidad primero
+✨ **Modern Interface**
+Clean and professional design with accessibility first
 
-📱 **Responsive Design**  
-Adaptación perfecta a móviles, tablets y desktop
+📱 **Responsive Design**
+Perfect adaptation for mobile, tablets, and desktop
 
-🎨 **Sistema de Temas**  
-Soporte integrado para modo claro/oscuro
+🎨 **Theme System**
+Built-in support for light/dark mode
 
-🔍 **SEO Avanzado**  
-Meta tags dinámicos y sitemap automatizado
+🔍 **Advanced SEO**
+Dynamic meta tags and automated sitemap
 
-## Stack Tecnológico
+## Tech Stack
 
-- **Astro** v5.1.8 - Framework estático de nueva generación
-- **Tailwind CSS** v3.3.3 - Utilidades CSS modernas
+- **Astro** v5.1.8 - Next-generation static framework
+- **Tailwind CSS** v3.3.3 - Modern CSS utilities
 
-## Desarrollo Local
+## Local Development
 
-Requisitos previos:
+Prerequisites:
 - Node.js v20+
 - pnpm v9+
 
-Pasos de instalación:
+Installation steps:
 
-1. Clonar repositorio:
+1. Clone repository:
 ```bash
 git clone https://github.com/CodeF1ow/codextreme-web.git
 cd codextreme-web
 ```
-2. Instalar dependencias:
+2. Install dependencies::
 ```bash
 pnpm install
 ```
-3. Iniciar servidor de desarrollo:
+3. Start development server:
 ```bash
 pnpm run dev
 ```
-4. Compilar para producción:
+4. Build for production:
 ```bash
 pnpm run build
 ```
 
-## Licencia
-Este proyecto es open source bajo licencia MIT.
+## License
+This project is open source under the MIT license.
 
-## Soporte y Contacto
-¿Preguntas o sugerencias?
+## Support and Contact
+Questions or suggestions?
 
-**Equipo CodeXtreme:** soporte@codeflow.dev
+**CodeXtreme Team:** soporte@codeflow.dev
 
 **Twitter:** @CodeF1ow
 
