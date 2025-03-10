@@ -4,6 +4,7 @@ import tailwind from '@astrojs/tailwind';
 
 
 export default defineConfig({
+  site: 'https://falorant.live',
   i18n: {
     defaultLocale: 'en',
     locales: ['es', 'en', 'jp'],
@@ -14,4 +15,5 @@ export default defineConfig({
 
   output: 'static',
   integrations: [tailwind(), react()],
+  sitemap: true,
 });
