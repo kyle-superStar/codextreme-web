@@ -16,9 +16,10 @@ export const labels = {
     "theme.toggle": "Cambiar Tema",
 
     // =========== Página Principal =========== //
+    "game.name": "Falorant",
     "download.button": "Descargar Ahora",
     "home.description": "🚀 Windows modificado para gaming y rendimiento",
-    "home.ques": "¿Qué es CodeXtremeOS?",
+    "home.ques": "¿Qué es Falorant?",
     "home.opti": "Optimización Extrema",
     "home.desopti":
       "ISO modificada de solo 3.2 GB con máximo rendimiento para gaming y productividad.",
@@ -45,18 +46,18 @@ export const labels = {
     "home.support.des":
       "Comunidad activa y Soporte técnico 24/7 para resolver tus dudas y problemas.",
     "home.features": "Características Clave",
-    "home.low": "🔄 Bajo Consumo de Recursos",
+    "home.low": "Tactical Gameplay",
     "home.low.des":
-      "Con un bajo consumo de recursos para un rendimiento extremo.",
-    "home.compatibility": "🎮 Compatibilidad",
+      "Precision gunplay combined with unique agent abilities creates a perfect balance of skill and strategy.",
+    "home.compatibility": "Diverse Agents",
     "home.compatibility.des":
-      "Soporte para juegos AAA y aplicaciones profesionales.",
-    "home.security": "🛡️ Seguridad",
+      "Choose from a roster of unique characters, each with their own special abilities and playstyles to master.",
+    "home.security": "Competitive Ranking",
     "home.security.des":
-      "Con las últimas actualizaciones de seguridad y protección contra malware.",
-    "home.personalization": "✨ Personalización",
+      "Test your skills in a robust competitive system with multiple ranks and tiers to climb as you improve.",
+    "home.personalization": "Immersive Maps",
     "home.personalization.des":
-      "Con herramientas populares para personalizar la apariencia de Windows",
+      "Battle across beautifully designed maps with unique layouts that encourage strategic gameplay and team coordination.",
     "home.go": "¿Listo para empezar?",
 
     // =========== Sección NTLite =========== //
@@ -91,10 +92,10 @@ export const labels = {
     "aria.social.reddit": "Enlace a Reddit de CodeFlow",
 
     // =========== Guías =========== //
-    "guides.title": "Guías CodeXtremeOS",
+    "guides.title": "Guías Falorant",
     "guides.description":
       "🚀 Domina la optimización con nuestras guías paso a paso.",
-    "guides.meta_title": "Guías y Tutoriales - CodeXtremeOS",
+    "guides.meta_title": "Guías y Tutoriales - Falorant",
     "guides.support.title": "¡Apoya a los creadores!",
     "guides.support.description1":
       "Estas guías son posibles gracias a la comunidad. Por favor considera",
@@ -128,7 +129,7 @@ export const labels = {
       "Descubre el mejor software para Windows 10/11 en 2025.",
 
     // =========== Herramientas =========== //
-    "tools.meta_title": "Herramientas de Optimización - CodeXtremeOS",
+    "tools.meta_title": "Herramientas de Optimización - Falorant",
     "tools.title": "Personalización Pro",
     "tools.subtitle":
       "🚀 Herramientas de Optimización - Seguridad - Personalización",
@@ -165,7 +166,7 @@ export const labels = {
     "tools.download": "Descargar",
 
     // =========== Software =========== //
-    "software.meta_title": "Software Esencial - CodeXtremeOS",
+    "software.meta_title": "Software Esencial - Falorant",
     "software.title": "Software Recomendado para Todos",
     "software.subtitle":
       "🚀 Explora software confiable que se ajuste a tus necesidades",
@@ -263,16 +264,16 @@ export const labels = {
     "downloads.announcement.custom_tip":
       "💡 Una ISO personalizada evita bloatware y se adapta exactamente a tus necesidades",
     "downloads.latest_version.title": "🚀 Última Versión",
-    "downloads.latest_version.name": "CodeXtremeOS 11",
+    "downloads.latest_version.name": "Falorant 11",
     "downloads.latest_version.build_info":
       "Build 24H2 optimizado con mejoras extremas",
     "downloads.latest_version.build_info_23H2":
       "Build 23H2 con nuevas funciones",
-    "downloads.11_versions.title": "💿​ CodeXtremeOS 11",
+    "downloads.11_versions.title": "💿​ Falorant 11",
     "downloads.previous_versions.title": "💿​ Otras Versiones",
-    "downloads.version1.name": "CodeXtremeOS 10",
+    "downloads.version1.name": "Falorant 10",
     "downloads.version1.build_info": "Build 22H2 con soporte Legacy",
-    "downloads.version2.name": "CodeXtremeOS 11",
+    "downloads.version2.name": "Falorant 11",
     "downloads.version2.build_info":
       "Build 23H2 con nuevas funciones y optimizaciones",
     "downloads.version3.build_info": "Build 22H2 con mejoras extremas",
@@ -354,9 +355,10 @@ export const labels = {
     "theme.toggle": "Toggle Theme",
 
     // =========== Home Page =========== //
+    "game.name": "Falorant",
     "download.button": "Download Now",
-    "home.description": "🚀 Modified Windows for gaming and performance",
-    "home.ques": "What is CodeXtremeOS?",
+    "home.description": "🚀 Falorant: 2D NSFW Shooter Game",
+    "home.ques": "What is Falorant?",
     "home.opti": "Extreme Optimization",
     "home.desopti":
       "Modified ISO of only 3.2 GB with maximum performance for gaming and productivity.",
@@ -381,17 +383,18 @@ export const labels = {
     "home.support.des":
       "Active community and 24/7 technical support to resolve your doubts and issues.",
     "home.features": "Key Features",
-    "home.low": "🔄 Low Resource Consumption",
-    "home.low.des": "With low resource consumption for extreme performance.",
-    "home.compatibility": "🎮 Compatibility",
+ "home.low": "Tactical Gameplay",
+    "home.low.des":
+      "Precision gunplay combined with unique agent abilities creates a perfect balance of skill and strategy.",
+    "home.compatibility": "Diverse Agents",
     "home.compatibility.des":
-      "Support for AAA games and professional applications.",
-    "home.security": "🛡️ Security",
+      "Choose from a roster of unique characters, each with their own special abilities and playstyles to master.",
+    "home.security": "Competitive Ranking",
     "home.security.des":
-      "With the latest security updates and malware protection.",
-    "home.personalization": "✨ Personalization",
+      "Test your skills in a robust competitive system with multiple ranks and tiers to climb as you improve.",
+    "home.personalization": "Immersive Maps",
     "home.personalization.des":
-      "With popular tools to customize the appearance of Windows",
+      "Battle across beautifully designed maps with unique layouts that encourage strategic gameplay and team coordination.",
     "home.go": "Ready to start?",
 
     // =========== NTLite Section =========== //
@@ -425,10 +428,10 @@ export const labels = {
     "aria.social.reddit": "Link to CodeFlow's Reddit",
 
     // =========== Guides ===========  //
-    "guides.title": "CodeXtremeOS Guides",
-    "guides.description":
-      "🚀 Master optimization with our step-by-step guides.",
-    "guides.meta_title": "Guides and Tutorials - CodeXtremeOS",
+    "guides.meta_title": "Falorant Game Guides - Become a Battlefield Master",
+    "guides.title": "Falorant Tactical Guide Center",
+    "guides.description": "From beginner to master, comprehensively improve your tactical shooter game skills",
+
     "guides.support.title": "Support the creators!",
     "guides.support.description1":
       "These guides are possible thanks to the community. Please consider",
@@ -436,33 +439,51 @@ export const labels = {
     "guides.support.description2": "and",
     "guides.support.emphasis2": "subscribing 🔔",
     "guides.support.description3": "to the original channels",
-    "guides.guide1.title": "Create Your Own Optimized ISO",
-    "guides.guide1.description":
-      "Complete guide to create and customize your optimized Windows ISO",
-    "guides.guide2.title": "Mega Optimization Pack",
-    "guides.guide2.description": "Optimize your PC by 500% with this mega pack",
-    "guides.guide3.title": "Personalization",
-    "guides.guide3.description":
-      "Make your Windows look great without resource consumption",
-    "guides.guide4.title": "Hidden Policies",
-    "guides.guide4.description":
-      "Enable hidden policies to get the most out of your performance",
-    "guides.view_more": "View more",
-    "guides.guide5.title": "Resource Optimization",
-    "guides.guide5.description":
-      "Learn to reduce CPU and RAM usage to maximize the performance of your ISO.",
-    "guides.guide6.title": "Clean Installation",
-    "guides.guide6.description":
-      "Discover how to set up automatic tasks after installation to keep your system optimized.",
-    "guides.guide7.title": "Increase Performance",
-    "guides.guide7.description":
-      "Discover how to increase the performance of your Windows 11 with these tips and tricks.",
-    "guides.guide8.title": "The Best Software",
-    "guides.guide8.description":
-      "Discover the best software for Windows 10/11 in 2025.",
+    // 指南标题和描述
+    "guides.guide1.title": "Beginner's Guide",
+    "guides.guide1.description": "Learn Falorant basics from scratch, including character selection techniques, map awareness, basic shooting mechanics, and movement skills. Perfect for new players to quickly get started.",
 
+    "guides.guide2.title": "Agent Abilities Mastery",
+    "guides.guide2.description": "In-depth analysis of each agent's unique ability combinations and timing, learn how to coordinate abilities with teammates for tactical advantages. Includes skill combos and advanced techniques for all characters.",
+
+    "guides.guide3.title": "Map Strategies & Callouts",
+    "guides.guide3.description": "Detailed explanation of key positions, common callouts, attack and defense strategies for all maps. Master each map's unique characteristics, learn professional player positions and tactical coordination to improve team efficiency.",
+
+    "guides.guide4.title": "Weapon Mastery Guide",
+    "guides.guide4.description": "Comprehensive analysis of all weapons in Falorant, including recoil patterns, damage data, and optimal usage scenarios. Learn how to control shooting accuracy for each weapon and choose appropriate equipment in different economic rounds.",
+
+    "guides.guide5.title": "Rank Climbing Strategy",
+    "guides.guide5.description": "From Iron to Immortal, comprehensive competitive mode guides including team communication techniques, mindset adjustment methods, and ranking strategies. Analyze common mistakes and provide targeted solutions to help you break through rank bottlenecks.",
+
+    "guides.guide6.title": "Pro Player Settings & Configuration",
+    "guides.guide6.description": "Game settings optimization guide based on top professional players, including crosshair settings, display parameters, key bindings, and hardware recommendations. Learn how to adjust settings according to personal habits to maximize game performance.",
+
+    "guides.guide7.title": "Team Compositions & Agent Synergy",
+    "guides.guide7.description": "Explore optimal character combinations and lineup configurations for different maps and tactical styles. Learn how to adjust strategies based on teammate selections and enemy compositions, and how to maximize character value on different maps.",
+
+    "guides.guide8.title": "Economy Management & Round Planning",
+    "guides.guide8.description": "Master the core mechanics of Falorant's economic system, learn how to make optimal economic decisions in different situations. Includes saving strategies, team economic coordination, and key round investment techniques to ensure your team always maintains equipment advantage.",
+
+    // 社区内容区域
+    "guides.community.title": "Community Curated Content",
+    "guides.community.description": "These guides are carefully crafted by passionate Falorant players and content creators, covering comprehensive techniques from basic to advanced.",
+    "guides.community.button": "Explore More Guides",
+
+    // 进阶学习资源
+    "guides.resources.title": "Advanced Learning Resources",
+    "guides.resources.item1.title": "Official Tournament Replays: ",
+    "guides.resources.item1.description": "Watching professional matches is one of the best ways to improve game understanding, analyzing professional players' decisions and team coordination.",
+
+    "guides.resources.item2.title": "Falorant Community Forums: ",
+    "guides.resources.item2.description": "Join the active player community, share experiences, discuss the latest game updates and meta changes.",
+
+    "guides.resources.item3.title": "Agent Skills Training Ground: ",
+    "guides.resources.item3.description": "Use custom game modes to practice specific skills such as aiming, position memorization, and ability timing.",
+
+    "guides.resources.item4.title": "Tactical Analysis Tools: ",
+    "guides.resources.item4.description": "Use third-party analysis tools to track your game data and performance, identifying areas that need improvement.",
     // =========== Tools =========== //
-    "tools.meta_title": "Optimization Tools - CodeXtremeOS",
+    "tools.meta_title": "Optimization Tools - Falorant",
     "tools.title": "Pro Personalization",
     "tools.subtitle": "🚀 Optimization - Security - Personalization Tools",
     "tools.opensource.title": "Important!",
@@ -498,7 +519,7 @@ export const labels = {
     "tools.download": "Download",
 
     // =========== Software =========== //
-    "software.meta_title": "Essential Software - CodeXtremeOS",
+    "software.meta_title": "Essential Software - Falorant",
     "software.title": "Recommended Software for Everyone",
     "software.subtitle": "🚀 Explore reliable software that fit your needs",
     "software.opensource.title": "Important Disclaimer",
@@ -582,15 +603,15 @@ export const labels = {
     "downloads.announcement.custom_tip":
       "💡 A custom ISO avoids bloatware and adapts exactly to your needs",
     "downloads.latest_version.title": "🚀 Latest Version",
-    "downloads.latest_version.name": "CodeXtremeOS 11",
+    "downloads.latest_version.name": "Falorant 11",
     "downloads.latest_version.build_info":
       "Build 24H2 optimized with extreme enhancements",
     "downloads.latest_version.build_info_23H2": "Build 23H2 with new features",
-    "downloads.11_versions.title": "💿​ CodeXtremeOS 11",
+    "downloads.11_versions.title": "💿​ Falorant 11",
     "downloads.previous_versions.title": "💿​ Other Versions",
-    "downloads.version1.name": "CodeXtremeOS 10",
+    "downloads.version1.name": "Falorant 10",
     "downloads.version1.build_info": "Build 22H2 with Legacy support",
-    "downloads.version2.name": "CodeXtremeOS 11",
+    "downloads.version2.name": "Falorant 11",
     "downloads.version2.build_info":
       "Build 23H2 with new features and optimizations",
     "downloads.version3.build_info": "Build 22H2 with extreme enhancements",
