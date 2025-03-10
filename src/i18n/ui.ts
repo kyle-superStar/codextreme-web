@@ -20,7 +20,7 @@ export const labels = {
     // =========== Página Principal =========== //
     "game.name": "Falorant",
     "download.button": "Jugar Ahora",
-    "home.description": "De principiante a maestro, mejora integralmente tus habilidades en juegos de disparos tácticos",
+    "home.description": "🚀 Falorant: 2D NSFW Shooter Game",
     "home.ques": "¿Qué es Falorant?",
     "home.opti": "Optimización Extrema",
     "home.desopti":
@@ -376,7 +376,7 @@ export const labels = {
     // =========== Home Page =========== //
     "game.name": "Falorant",
     "download.button": "Play Now",
-    "home.description": "From beginner to master, comprehensively improve your tactical shooter game skills",
+    "home.description": "🚀 Falorant: 2D NSFW Shooter Game",
     "home.ques": "What is Falorant?",
     "home.opti": "Extreme Optimization",
     "home.desopti":

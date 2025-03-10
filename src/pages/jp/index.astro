@@ -1,0 +1,380 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Card from "@/components/Card.astro";
+
+import { getAbsoluteLocaleUrl } from "astro:i18n";
+import { languageList } from "@/i18n/ui";
+import { useTranslations } from "@/i18n/utils";
+
+const currentLang = Astro.currentLocale || "en";
+const translateLabels = useTranslations(
+  currentLang as keyof typeof languageList
+);
+---
+
+<BaseLayout title="Inicio - CodeXtremeOS">
+  <!-- Hero Section -->
+  <section
+    class="relative bg-gradient-to-br from-gray-900 to-gray-800 text-white py-20 overflow-hidden -mt-4"
+  >
+    <div class="container mx-auto text-center px-4 relative z-10">
+      <div class="max-w-5xl mx-auto">
+        <h1
+          class="text-5xl md:text-6xl font-bold mb-6 animate-fade-in text-shadow-lg"
+        >
+          <span
+            class="bg-clip-text text-transparent bg-gradient-to-r from-[#FF6F61] to-[#6B5B95]"
+          >
+          falorant game
+          </span>
+        </h1>
+        <p
+          class="text-xl md:text-2xl mb-8 animate-fade-in delay-150 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full inline-block"
+        >
+          {translateLabels("home.description")}
+        </p>
+        
+        <!-- Game iframe container -->
+        <div class="w-full max-w-4xl mx-auto bg-black/30 p-4 rounded-lg shadow-lg mb-8 animate-fade-in delay-200">
+          <div class="relative w-full" style="padding-top: 56.25%"> <!-- 16:9 aspect ratio -->
+            <iframe 
+              src="https://html-classic.itch.zone/html/12483534/index.html" 
+              class="absolute top-0 left-0 w-full h-full rounded-md"
+              frameborder="0" 
+              scrolling="no" 
+              allowfullscreen
+              id="gameFrame"
+              title="Game iframe"
+            ></iframe>
+            <div class="absolute bottom-4 right-4 flex gap-2 z-20">
+              <button
+                id="fullscreenBtn"
+                class="fullscreen-btn bg-black/50 hover:bg-black/70 text-white px-3 py-2 rounded-lg backdrop-blur-sm transition-all duration-300 flex items-center gap-2"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-5h-4m4 0v4m0 0l-5-5"/>
+                </svg>
+                <span>全屏</span>
+              </button>
+              <button
+                id="exitFullscreenBtn"
+                class="exit-fullscreen-btn hidden bg-black/50 hover:bg-black/70 text-white px-3 py-2 rounded-lg backdrop-blur-sm transition-all duration-300 flex items-center gap-2"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v4m0 0h4m-4 0l5-5m11 5h-4m4 0v-4m0 4l-5-5"/>
+                </svg>
+                <span>退出全屏</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div class="animate-fade-in delay-300">
+          <a
+            href={getAbsoluteLocaleUrl(currentLang, "descargas")}
+            class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-[#FF6F61] to-[#6B5B95] rounded-lg hover:opacity-90 transition-opacity"
+          >
+            {translateLabels("download.button")}
+            <svg
+              class="w-4 h-4 ml-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+              ></path>
+            </svg>
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Información -->
+  <main
+    class="bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-900 dark:to-gray-800 py-16 relative"
+  >
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">
+        <span
+          class="bg-clip-text text-transparent bg-gradient-to-r from-[#6B5B95] to-[#8B7CB0]"
+        >
+          {translateLabels("home.ques")}
+        </span>
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <Card
+          title={translateLabels("home.tactical")}
+          description={translateLabels("home.tactical.des")}
+          borderColor="border-[#FF4655]"
+          gradientFrom="from-[#FF4655]"
+          gradientTo="to-[#FF8082]"
+          textColor="text-[#6B5B95]"
+          hoverTextColor="hover:text-[#FF4655]"
+          icon="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+        />
+        <Card
+          title={translateLabels("home.agents")}
+          description={translateLabels("home.agents.des")}
+          borderColor="border-[#6B5B95]"
+          gradientFrom="from-[#6B5B95]"
+          gradientTo="to-[#8B7CB0]"
+          textColor="text-[#6B5B95]"
+          hoverTextColor="hover:text-[#8B7CB0]"
+          icon="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+        />
+        <Card
+          title={translateLabels("home.maps")}
+          description={translateLabels("home.maps.des")}
+          borderColor="border-[#4CAF50]"
+          gradientFrom="from-[#4CAF50]"
+          gradientTo="to-[#81C784]"
+          textColor="text-[#4CAF50]"
+          hoverTextColor="hover:text-[#81C784]"
+          icon="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+        />
+        <Card
+          title={translateLabels("home.weapons")}
+          description={translateLabels("home.weapons.des")}
+          borderColor="border-[#FF9800]"
+          gradientFrom="from-[#FF9800]"
+          gradientTo="to-[#FFB74D]"
+          textColor="text-[#FF9800]"
+          hoverTextColor="hover:text-[#FFB74D]"
+          icon="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"
+        />
+        <Card
+          title={translateLabels("home.competitive")}
+          description={translateLabels("home.competitive.des")}
+          borderColor="border-[#E91E63]"
+          gradientFrom="from-[#E91E63]"
+          gradientTo="to-[#F06292]"
+          textColor="text-[#E91E63]"
+          hoverTextColor="hover:text-[#F06292]"
+          icon="M13 10V3L4 14h7v7l9-11h-7z"
+        />
+        <Card
+          title={translateLabels("home.teamplay")}
+          description={translateLabels("home.teamplay.des")}
+          borderColor="border-[#9C27B0]"
+          gradientFrom="from-[#9C27B0]"
+          gradientTo="to-[#BA68C8]"
+          textColor="text-[#9C27B0]"
+          hoverTextColor="hover:text-[#BA68C8]"
+          icon="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+        />
+        <Card
+          title={translateLabels("home.economy")}
+          description={translateLabels("home.economy.des")}
+          borderColor="border-[#00BCD4]"
+          gradientFrom="from-[#00BCD4]"
+          gradientTo="to-[#4DD0E1]"
+          textColor="text-[#00BCD4]"
+          hoverTextColor="hover:text-[#4DD0E1]"
+          icon="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+        />
+        <Card
+          title={translateLabels("home.abilities")}
+          description={translateLabels("home.abilities.des")}
+          borderColor="border-[#8BC34A]"
+          gradientFrom="from-[#8BC34A]"
+          gradientTo="to-[#AED581]"
+          textColor="text-[#8BC34A]"
+          hoverTextColor="hover:text-[#AED581]"
+          icon="M13 10V3L4 14h7v7l9-11h-7z"
+        />
+        <Card
+          title={translateLabels("home.rounds")}
+          description={translateLabels("home.rounds.des")}
+          borderColor="border-[#FF5722]"
+          gradientFrom="from-[#FF5722]"
+          gradientTo="to-[#FF8A65]"
+          textColor="text-[#FF5722]"
+          hoverTextColor="hover:text-[#FF8A65]"
+          icon="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+        />
+      </div>
+    </div>
+  </main>
+
+  <!-- Sección de Características -->
+  <section class="bg-white dark:bg-gray-900 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">
+        <span
+          class="bg-clip-text text-transparent bg-gradient-to-r from-[#FF6F61] to-[#FF8C78]"
+        >
+          {translateLabels("home.features")}
+        </span>
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <Card
+          title={translateLabels("home.low")}
+          description={translateLabels("home.low.des")}
+          borderColor="border-[#FF4655]"
+          gradientFrom="from-[#FF4655]"
+          gradientTo="to-[#FF8082]"
+          textColor="text-[#383E3A]"
+          hoverTextColor="hover:text-[#FF4655]"
+          icon="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+        />
+        <Card
+          title={translateLabels("home.compatibility")}
+          description={translateLabels("home.compatibility.des")}
+          borderColor="border-[#0F1923]"
+          gradientFrom="from-[#0F1923]"
+          gradientTo="to-[#2C3E50]"
+          textColor="text-[#0F1923]"
+          hoverTextColor="hover:text-[#2C3E50]"
+          icon="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+        />
+        <Card
+          title={translateLabels("home.security")}
+          description={translateLabels("home.security.des")}
+          borderColor="border-[#BD3944]"
+          gradientFrom="from-[#BD3944]"
+          gradientTo="to-[#E55C6C]"
+          textColor="text-[#BD3944]"
+          hoverTextColor="hover:text-[#E55C6C]"
+          icon="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
+        />
+        <Card
+          title={translateLabels("home.personalization")}
+          description={translateLabels("home.personalization.des")}
+          borderColor="border-[#00FFBC]"
+          gradientFrom="from-[#00FFBC]"
+          gradientTo="to-[#7AFFDA]"
+          textColor="text-[#008F6B]"
+          hoverTextColor="hover:text-[#00FFBC]"
+          icon="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Anuncio NTLite -->
+  <div
+    class="bg-gradient-to-r from-gray-900/90 to-gray-800/90 text-white w-full py-12"
+  >
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-6">
+          <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#FF6F61] to-[#6B5B95]">
+            {translateLabels("home.gameplay")}
+          </span>
+        </h2>
+        <div
+          class="rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 bg-white/5 backdrop-blur-sm overflow-hidden"
+        >
+          <div class="relative w-full" style="padding-top: 56.25%"> <!-- 16:9 aspect ratio -->
+            <iframe
+              class="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/SWNxxTabApQ?si=dnAA3928jvftH7ng"
+              title="Falorant Gameplay"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección Final CTA -->
+  <section
+    class="relative bg-gradient-to-br from-gray-900 to-gray-800 text-white py-24 overflow-hidden"
+  >
+    <div class="container mx-auto text-center px-4 relative z-10">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        <span
+          class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-red-500"
+        >
+          {translateLabels("home.go")}
+        </span>
+      </h2>
+      <a
+         href="#gameFrame"
+        class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-[#FF6F61] to-[#6B5B95] rounded-lg hover:opacity-90 transition-opacity"
+      >
+        {translateLabels("download.button")}
+        <!-- <svg
+          class="w-4 h-4 ml-2"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+          ></path>
+        </svg> -->
+      </a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .group:hover h2 span,
+  .group:hover h3 span {
+    background-position: 100% 50%;
+    transition: background-position 0.5s ease-out;
+  }
+
+  h2 span,
+  h3 span {
+    background-size: 200% auto;
+    background-position: 0% 50%;
+    transition: background-position 0.3s ease-in;
+  }
+</style>
+
+<script>
+  // 等待 DOM 加载完成
+  document.addEventListener('DOMContentLoaded', () => {
+    const iframe = document.getElementById('gameFrame');
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    const exitFullscreenBtn = document.getElementById('exitFullscreenBtn');
+
+    if (fullscreenBtn && exitFullscreenBtn && iframe) {
+      fullscreenBtn.addEventListener('click', () => {
+        if (iframe.requestFullscreen) {
+          iframe.requestFullscreen().then(() => {
+            fullscreenBtn?.classList.add('hidden');
+            exitFullscreenBtn?.classList.remove('hidden');
+          }).catch((err) => {
+            console.error(`Error attempting to enable fullscreen: ${err.message}`);
+          });
+        }
+      });
+
+      exitFullscreenBtn.addEventListener('click', () => {
+        if (document.fullscreenElement && document.exitFullscreen) {
+          document.exitFullscreen().then(() => {
+            fullscreenBtn?.classList.remove('hidden');
+            exitFullscreenBtn?.classList.add('hidden');
+          }).catch((err) => {
+            console.error(`Error attempting to exit fullscreen: ${err.message}`);
+          });
+        }
+      });
+
+      // 监听全屏变化事件
+      document.addEventListener('fullscreenchange', () => {
+        if (!document.fullscreenElement) {
+          fullscreenBtn?.classList.remove('hidden');
+          exitFullscreenBtn?.classList.add('hidden');
+        }
+      });
+    }
+  });
+</script>

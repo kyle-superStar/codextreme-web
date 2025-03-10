@@ -1,0 +1,195 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Card from "@/components/Card.astro";
+
+import { getAbsoluteLocaleUrl } from "astro:i18n";
+import { languageList } from "@/i18n/ui";
+import { useTranslations } from "@/i18n/utils";
+
+const currentLang = Astro.currentLocale || "en";
+const translateLabels = useTranslations(
+  currentLang as keyof typeof languageList
+);
+---
+
+<BaseLayout title={translateLabels("faq.meta_title")}>
+  <!-- Hero Section -->
+  <section
+    class="relative bg-gradient-to-br from-gray-900 to-gray-800 text-white py-20 overflow-hidden -mt-4"
+  >
+    <div class="container mx-auto text-center px-4 relative z-10">
+      <div class="max-w-5xl mx-auto">
+        <h1
+          class="text-5xl md:text-6xl font-bold mb-6 animate-fade-in text-shadow-lg"
+        >
+          <span
+            class="bg-clip-text text-transparent bg-gradient-to-r from-[#FF6F61] to-[#6B5B95]"
+          >
+            {translateLabels("faq.title")}
+          </span>
+        </h1>
+        <p
+          class="text-xl md:text-2xl mb-8 animate-fade-in delay-150 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full inline-block"
+        >
+          {translateLabels("faq.description")}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Categories -->
+  <main class="bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-900 dark:to-gray-800 py-16 relative">
+    <div class="container mx-auto px-4">
+      <!-- Game Basics -->
+      <div class="mb-16">
+        <h2 class="text-3xl font-bold text-center mb-12">
+          <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#6B5B95] to-[#8B7CB0]">
+            {translateLabels("faq.basics.title")}
+          </span>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <Card
+            title={translateLabels("faq.basics.q1")}
+            description={translateLabels("faq.basics.a1")}
+            borderColor="border-[#FF4655]"
+            gradientFrom="from-[#FF4655]"
+            gradientTo="to-[#FF8082]"
+            textColor="text-[#6B5B95]"
+            hoverTextColor="hover:text-[#FF4655]"
+            icon="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
+          <Card
+            title={translateLabels("faq.basics.q2")}
+            description={translateLabels("faq.basics.a2")}
+            borderColor="border-[#6B5B95]"
+            gradientFrom="from-[#6B5B95]"
+            gradientTo="to-[#8B7CB0]"
+            textColor="text-[#6B5B95]"
+            hoverTextColor="hover:text-[#8B7CB0]"
+            icon="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+          />
+        </div>
+      </div>
+
+      <!-- Gameplay -->
+      <div class="mb-16">
+        <h2 class="text-3xl font-bold text-center mb-12">
+          <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#FF6F61] to-[#FF8C78]">
+            {translateLabels("faq.gameplay.title")}
+          </span>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <Card
+            title={translateLabels("faq.gameplay.q1")}
+            description={translateLabels("faq.gameplay.a1")}
+            borderColor="border-[#4CAF50]"
+            gradientFrom="from-[#4CAF50]"
+            gradientTo="to-[#81C784]"
+            textColor="text-[#4CAF50]"
+            hoverTextColor="hover:text-[#81C784]"
+            icon="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
+          <Card
+            title={translateLabels("faq.gameplay.q2")}
+            description={translateLabels("faq.gameplay.a2")}
+            borderColor="border-[#FF9800]"
+            gradientFrom="from-[#FF9800]"
+            gradientTo="to-[#FFB74D]"
+            textColor="text-[#FF9800]"
+            hoverTextColor="hover:text-[#FFB74D]"
+            icon="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z"
+          />
+          <Card
+            title={translateLabels("faq.gameplay.q3")}
+            description={translateLabels("faq.gameplay.a3")}
+            borderColor="border-[#E91E63]"
+            gradientFrom="from-[#E91E63]"
+            gradientTo="to-[#F06292]"
+            textColor="text-[#E91E63]"
+            hoverTextColor="hover:text-[#F06292]"
+            icon="M13 10V3L4 14h7v7l9-11h-7z"
+          />
+        </div>
+      </div>
+
+      <!-- Technical Support -->
+      <div class="mb-16">
+        <h2 class="text-3xl font-bold text-center mb-12">
+          <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#00BCD4] to-[#4DD0E1]">
+            {translateLabels("faq.technical.title")}
+          </span>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <Card
+            title={translateLabels("faq.technical.q1")}
+            description={translateLabels("faq.technical.a1")}
+            borderColor="border-[#9C27B0]"
+            gradientFrom="from-[#9C27B0]"
+            gradientTo="to-[#BA68C8]"
+            textColor="text-[#9C27B0]"
+            hoverTextColor="hover:text-[#BA68C8]"
+            icon="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
+          <Card
+            title={translateLabels("faq.technical.q2")}
+            description={translateLabels("faq.technical.a2")}
+            borderColor="border-[#00BCD4]"
+            gradientFrom="from-[#00BCD4]"
+            gradientTo="to-[#4DD0E1]"
+            textColor="text-[#00BCD4]"
+            hoverTextColor="hover:text-[#4DD0E1]"
+            icon="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+          />
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Contact Section -->
+  <section class="bg-white dark:bg-gray-900 py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-8">
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#FF6F61] to-[#6B5B95]">
+          {translateLabels("faq.contact.title")}
+        </span>
+      </h2>
+      <p class="text-lg mb-8 text-gray-600 dark:text-gray-300">
+        {translateLabels("faq.contact.description")}
+      </p>
+      <a
+        href={getAbsoluteLocaleUrl(currentLang, "contact")}
+        class="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-gradient-to-r from-[#FF6F61] to-[#6B5B95] rounded-lg hover:opacity-90 transition-opacity"
+      >
+        {translateLabels("faq.contact.button")}
+        <svg
+          class="w-5 h-5 ml-2"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M14 5l7 7m0 0l-7 7m7-7H3"
+          ></path>
+        </svg>
+      </a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .group:hover h2 span,
+  .group:hover h3 span {
+    background-position: 100% 50%;
+    transition: background-position 0.5s ease-out;
+  }
+
+  h2 span,
+  h3 span {
+    background-size: 200% auto;
+    background-position: 0% 50%;
+    transition: background-position 0.3s ease-in;
+  }
+</style> 
