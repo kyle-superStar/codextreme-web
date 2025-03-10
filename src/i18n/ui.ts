@@ -1,6 +1,7 @@
 export const languageList = {
   es: "Español",
   en: "English",
+  jp: "Japanese",
 } as const;
 
 export const labels = {
@@ -11,14 +12,15 @@ export const labels = {
     "nav.tools": "Herramientas",
     "nav.software": "Software",
     "nav.download": "Descargas",
+    "nav.faq": "Preguntas Frecuentes",
 
     // =========== Tema =========== //
     "theme.toggle": "Cambiar Tema",
 
     // =========== Página Principal =========== //
     "game.name": "Falorant",
-    "download.button": "Descargar Ahora",
-    "home.description": "🚀 Windows modificado para gaming y rendimiento",
+    "download.button": "Jugar Ahora",
+    "home.description": "De principiante a maestro, mejora integralmente tus habilidades en juegos de disparos tácticos",
     "home.ques": "¿Qué es Falorant?",
     "home.opti": "Optimización Extrema",
     "home.desopti":
@@ -45,7 +47,7 @@ export const labels = {
     "home.support": "Soporte 24/7",
     "home.support.des":
       "Comunidad activa y Soporte técnico 24/7 para resolver tus dudas y problemas.",
-    "home.features": "Características Clave",
+    "home.features": "Características Principales",
     "home.low": "Tactical Gameplay",
     "home.low.des":
       "Precision gunplay combined with unique agent abilities creates a perfect balance of skill and strategy.",
@@ -58,7 +60,27 @@ export const labels = {
     "home.personalization": "Immersive Maps",
     "home.personalization.des":
       "Battle across beautifully designed maps with unique layouts that encourage strategic gameplay and team coordination.",
-    "home.go": "¿Listo para empezar?",
+    "home.go": "¿Listo para Jugar?",
+    "home.tactical": "Shooter Táctico",
+    "home.tactical.des": "A 5v5 character-based tactical shooter where precise gunplay meets unique agent abilities",
+    "home.agents": "Agentes Únicos",
+    "home.agents.des": "Choose from a diverse cast of agents, each bringing their own unique abilities to the battlefield",
+    "home.maps": "Mapas Estratégicos",
+    "home.maps.des": "Domina múltiples mapas diseñados para el juego táctico competitivo y la profundidad estratégica",
+    "home.weapons": "Maestría del Arsenal",
+    "home.weapons.des": "Learn to control an arsenal of weapons, each with unique recoil patterns and gameplay characteristics",
+    "home.competitive": "Competitive Rankings",
+    "home.competitive.des": "Climb the competitive ladder and prove your skills against players of similar skill levels",
+    "home.teamplay": "Team Synergy",
+    "home.teamplay.des": "Coordinate with your team, combining abilities and strategies to achieve victory",
+    "home.economy": "Economy Management",
+    "home.economy.des": "Master the economy system to make strategic purchases and maintain team resources",
+    "home.abilities": "Tactical Abilities",
+    "home.abilities.des": "Utiliza unique agent abilities to create opportunities and outmaneuver opponents",
+    "home.rounds": "Round-Based Format",
+    "home.rounds.des": "Compete in intense round-based matches where every decision matters",
+    "home.gameplay": "Ver Gameplay",
+    "home.gameplay.description": "Experience the intense action and strategic depth of Falorant",
 
     // =========== Sección NTLite =========== //
     "ntlite.ntlite_name": "NTLite",
@@ -71,25 +93,24 @@ export const labels = {
     "footer.stable": "Estable",
     "footer.explore": "Explorar",
     "footer.connect": "Conectar",
-    "footer.updates": "Actualizaciones",
+    "footer.updates": "Mantente Actualizado",
     "footer.subscribe": "Suscribirse",
-    "footer.newsletter":
-      "Recibe noticias sobre nuevas versiones y características",
-    "footer.email.placeholder": "Email",
-    "footer.copyright": "© 2025 CodeFlow. Todos los derechos reservados.",
-    "footer.privacy": "Privacidad",
-    "footer.terms": "Términos",
+    "footer.newsletter": "Subscribe to our newsletter for the latest updates",
+    "footer.email.placeholder": "Ingresa tu email",
+    "footer.copyright": "© 2024 Falorant. Todos los derechos reservados.",
+    "footer.privacy": "Política de Privacidad",
+    "footer.terms": "Términos de Servicio",
     "footer.github.title": "Proyecto CodeXtreme ",
     "footer.github.description": "Descarga desde GitHub",
     "footer.github.star": "Estrella en GitHub",
 
     // =========== Accesibilidad =========== //
-    "aria.social.twitter": "Enlace a Twitter de CodeFlow",
-    "aria.social.github": "Enlace a GitHub de CodeFlow",
-    "aria.social.youtube": "Enlace a YouTube de CodeFlow",
-    "aria.social.discord": "Enlace a Discord de CodeFlow",
-    "aria.social.linkedin": "Enlace a LinkedIn de CodeFlow",
-    "aria.social.reddit": "Enlace a Reddit de CodeFlow",
+    "aria.social.twitter": "Síguenos en Twitter",
+    "aria.social.github": "Visita nuestro GitHub",
+    "aria.social.youtube": "Suscríbete a nuestro canal de YouTube",
+    "aria.social.discord": "Únete a nuestro Discord",
+    "aria.social.linkedin": "Conéctate en LinkedIn",
+    "aria.social.reddit": "Únete a nuestra comunidad de Reddit",
 
     // =========== Guías =========== //
     "guides.title": "Guías Falorant",
@@ -187,11 +208,9 @@ export const labels = {
     "software.category2.title": "🎨 Aplicaciones de Producción",
     "software.category3.title": "Software para Windows",
     "software.tool1.name": "Runtime de DirectX",
-    "software.tool1.description":
-      "Entorno de ejecución para DirectX 9, 10, 11 y 12",
+    "software.tool1.description": "Entorno de ejecución para DirectX 9, 10, 11 y 12",
     "software.tool2.name": "Runtime de VC++",
-    "software.tool2.description":
-      "Bibliotecas de ejecución de Visual C++ para Windows",
+    "software.tool2.description": "Bibliotecas de ejecución de Visual C++ para Windows",
     "software.tool3.name": "Runtime de escritorio .NET 5.0",
     "software.tool3.description":
       "Entorno de ejecución para aplicaciones de escritorio .NET 5.0",
@@ -350,14 +369,14 @@ export const labels = {
     "nav.tools": "Tools",
     "nav.software": "Software",
     "nav.download": "Downloads",
-
+    "nav.faq": "FAQ",
     // =========== Theme =========== //
     "theme.toggle": "Toggle Theme",
 
     // =========== Home Page =========== //
     "game.name": "Falorant",
-    "download.button": "Download Now",
-    "home.description": "🚀 Falorant: 2D NSFW Shooter Game",
+    "download.button": "Play Now",
+    "home.description": "From beginner to master, comprehensively improve your tactical shooter game skills",
     "home.ques": "What is Falorant?",
     "home.opti": "Extreme Optimization",
     "home.desopti":
@@ -383,7 +402,7 @@ export const labels = {
     "home.support.des":
       "Active community and 24/7 technical support to resolve your doubts and issues.",
     "home.features": "Key Features",
- "home.low": "Tactical Gameplay",
+    "home.low": "Tactical Gameplay",
     "home.low.des":
       "Precision gunplay combined with unique agent abilities creates a perfect balance of skill and strategy.",
     "home.compatibility": "Diverse Agents",
@@ -395,7 +414,27 @@ export const labels = {
     "home.personalization": "Immersive Maps",
     "home.personalization.des":
       "Battle across beautifully designed maps with unique layouts that encourage strategic gameplay and team coordination.",
-    "home.go": "Ready to start?",
+    "home.go": "Ready to Play?",
+    "home.tactical": "Tactical Shooter",
+    "home.tactical.des": "A 5v5 character-based tactical shooter where precise gunplay meets unique agent abilities",
+    "home.agents": "Unique Agents",
+    "home.agents.des": "Choose from a diverse cast of agents, each bringing their own unique abilities to the battlefield",
+    "home.maps": "Strategic Maps",
+    "home.maps.des": "Master multiple maps designed for competitive tactical gameplay and strategic depth",
+    "home.weapons": "Arsenal Mastery",
+    "home.weapons.des": "Learn to control an arsenal of weapons, each with unique recoil patterns and gameplay characteristics",
+    "home.competitive": "Competitive Rankings",
+    "home.competitive.des": "Climb the competitive ladder and prove your skills against players of similar skill levels",
+    "home.teamplay": "Team Synergy",
+    "home.teamplay.des": "Coordinate with your team, combining abilities and strategies to achieve victory",
+    "home.economy": "Economy Management",
+    "home.economy.des": "Master the economy system to make strategic purchases and maintain team resources",
+    "home.abilities": "Tactical Abilities",
+    "home.abilities.des": "Utilize unique agent abilities to create opportunities and outmaneuver opponents",
+    "home.rounds": "Round-Based Format",
+    "home.rounds.des": "Compete in intense round-based matches where every decision matters",
+    "home.gameplay": "Watch Gameplay",
+    "home.gameplay.description": "Experience the intense action and strategic depth of Falorant",
 
     // =========== NTLite Section =========== //
     "ntlite.ntlite_name": "NTLite",
@@ -408,10 +447,10 @@ export const labels = {
     "footer.stable": "Stable",
     "footer.explore": "Explore",
     "footer.connect": "Connect",
-    "footer.updates": "Updates",
+    "footer.updates": "Stay Updated",
     "footer.subscribe": "Subscribe",
-    "footer.newsletter": "Receive news about new versions and features",
-    "footer.email.placeholder": "Email",
+    "footer.newsletter": "Subscribe to our newsletter for the latest updates",
+    "footer.email.placeholder": "Enter your email",
     "footer.copyright": "© 2025 CodeFlow. All rights reserved.",
     "footer.privacy": "Privacy",
     "footer.terms": "Terms",
@@ -534,7 +573,7 @@ export const labels = {
     "software.opensource.step2":
       "Ensure your system meets the minimum specifications",
     "software.opensource.step3":
-      "Install and use according to the developer’s instructions. Always back up your data before making changes.",
+      "Install and use according to the developer's instructions. Always back up your data before making changes.",
     "software.category1.title": "🛠 Drivers & Runtime",
     "software.category2.title": "🎨 Production Apps",
     "software.category3.title": "Windows Software",
@@ -673,11 +712,89 @@ export const labels = {
     "downloads.features.full_support_optional_features":
       "Full Support for all optional features, including WSA and WSL2",
     "downloads.features.enabled_rounded_corners_acrylic_mica":
-      "Rounded Corners, Acrylic, and Mica Enabled by Default (Even in a VM!)",
+      "Rounded Corners, Acrílico y Mica Enabled by Default (Even in a VM!)",
     "downloads.features_no_internet":
       "No Internet connection required for installation",
     "downloads.features_telemetry": "Telemetry and Tracking Removed",
     "downloads.features.additional_improvements_optimizations":
       "Additional Improvements and Optimizations Included",
+
+    "faq.meta_title": "FAQ - Falorant Game",
+    "faq.title": "Frequently Asked Questions",
+    "faq.description": "Find answers to common questions about Falorant",
+    
+    "faq.basics.title": "Game Basics",
+    "faq.basics.q1": "What is Falorant?",
+    "faq.basics.a1": "Falorant is a tactical shooter game that combines precise gunplay with unique agent abilities.",
+    "faq.basics.q2": "How do I get started?",
+    "faq.basics.a2": "Download the game, create an account, and complete the basic tutorial to learn the core mechanics.",
+    
+    "faq.gameplay.title": "Gameplay",
+    "faq.gameplay.q1": "How do abilities work?",
+    "faq.gameplay.a1": "Each agent has unique abilities that can be purchased and used during rounds to support your team.",
+    "faq.gameplay.q2": "What are the game modes?",
+    "faq.gameplay.a2": "Falorant features several game modes including Unrated, Competitive, Spike Rush, and Custom games.",
+    "faq.gameplay.q3": "How does the ranking system work?",
+    "faq.gameplay.a3": "Players compete in ranked matches to climb through tiers from Iron to Radiant based on their performance.",
+    
+    "faq.technical.title": "Technical Support",
+    "faq.technical.q1": "System Requirements",
+    "faq.technical.a1": "Check our system requirements page for detailed information about minimum and recommended specifications.",
+    "faq.technical.q2": "Common Issues",
+    "faq.technical.a2": "Find solutions to common technical issues in our troubleshooting guide.",
+    
+    "faq.contact.title": "Still Have Questions?",
+    "faq.contact.description": "Can't find what you're looking for? Our support team is here to help.",
+    "faq.contact.button": "Contact Support",
   },
-};
+  jp: {
+    "nav.home": "ホーム",
+    "nav.guides": "ガイド",
+    "nav.tools": "ツール",
+    "nav.software": "ソフトウェア",
+    "nav.download": "ダウンロード",
+    "nav.faq": "よくある質問",
+    "theme.toggle": "テーマ切り替え",
+    "game.name": "Falorant",
+    "download.button": "今すぐプレイ",
+    "home.description": "初心者からマスターまで、戦術的シューターゲームのスキルを総合的に向上",
+    "home.ques": "Falorantとは？",
+    "home.tactical": "タクティカルシューター",
+    "home.tactical.des": "精密な射撃とユニークなエージェント能力が融合する5対5のキャラクターベースタクティカルシューター",
+    "home.agents": "個性的なエージェント",
+    "home.agents.des": "それぞれが独自の能力を持つ多様なエージェントから選択",
+    "home.maps": "戦略的マップ",
+    "home.maps.des": "競争的な戦術的ゲームプレイと戦略的深さのために設計された複数のマップをマスター",
+    "home.weapons": "武器の熟達",
+    "home.weapons.des": "独自の反動パターンとゲームプレイ特性を持つ武器庫をマスター",
+    "home.competitive": "競争ランキング",
+    "home.competitive.des": "競争ラダーを登り、同じスキルレベルのプレイヤーと対戦",
+    "home.teamplay": "チームシナジー",
+    "home.teamplay.des": "能力と戦略を組み合わせてチームと協力し、勝利を目指す",
+    "home.economy": "経済管理",
+    "home.economy.des": "戦略的な購入とチームリソースの維持のための経済システムをマスター",
+    "home.abilities": "戦術的能力",
+    "home.abilities.des": "独自のエージェント能力を活用して機会を作り、敵を出し抜く",
+    "home.rounds": "ラウンド制",
+    "home.rounds.des": "すべての決定が重要な緊張感のあるラウンドベースの試合",
+    "home.features": "主な特徴",
+    "home.gameplay": "ゲームプレイを見る",
+    "home.gameplay.description": "Falorantのインテンシブなアクションと戦略的深さを体験",
+    "home.go": "プレイする準備はできましたか？",
+    "footer.explore": "探索",
+    "footer.connect": "つながる",
+    "footer.updates": "最新情報",
+    "footer.newsletter": "最新のアップデート情報を受け取るにはニュースレターに登録",
+    "footer.email.placeholder": "メールアドレスを入力",
+    "footer.subscribe": "登録",
+    "footer.copyright": "© 2024 Falorant. All rights reserved.",
+    "footer.privacy": "プライバシーポリシー",
+    "footer.terms": "利用規約",
+    "aria.social.github": "GitHubをご覧ください",
+    "aria.social.twitter": "Twitterでフォロー",
+    "aria.social.youtube": "YouTubeチャンネルを登録",
+    "aria.social.discord": "Discordに参加",
+    "aria.social.linkedin": "LinkedInでつながる",
+    "aria.social.reddit": "Redditコミュニティに参加"
+  }
+} as const;
