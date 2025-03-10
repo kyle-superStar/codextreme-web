@@ -6,6 +6,10 @@ export const languageList = {
 
 export const labels = {
   es: {
+     // =========== TDK =========== //
+    "tdk.title": "Falorant - Juego de Disparos 2D NSFW - Juego de Ventana",
+    "tdk.description": "Descubre Falorant: Un shooter táctico único inspirado en Valorant. Domina el juego preciso, habilidades distintivas y elementos paródicos innovadores.",
+    "tdk.keywords": "Falorant, shooter táctico, juego competitivo, NSFW",
     // =========== Navegación =========== //
     "nav.home": "Inicio",
     "nav.guides": "Guías",
@@ -363,6 +367,11 @@ export const labels = {
       "Mejoras y Optimización Adicionales Incluidas",
   },
   en: {
+    // =========== TDK =========== //
+    "tdk.title": "Falorant - 2D NSFW Shooter Game - window Game",
+    "tdk.description": "Experience Falorant: A unique tactical shooter inspired by Valorant. Master precise gunplay, distinctive agent abilities, and innovative parody elements.",
+    "tdk.keywords": "Falorant, tactical shooter, competitive gaming,NSFW",
+
     // =========== Navigation =========== //
     "nav.home": "Home",
     "nav.guides": "Guides",
@@ -748,6 +757,10 @@ export const labels = {
     "faq.contact.button": "Contact Support",
   },
   jp: {
+    // =========== TDK =========== //
+    "tdk.title": "Falorant - 2D NSFWシューターゲーム - ウィンドウゲーム",
+    "tdk.description": "Falorantを体験：Valorantにインスパイアされた独特な戦術シューター。精密な射撃、個性的なエージェントスキル、革新的なパロディ要素を極めよう。",
+    "tdk.keywords": "Falorant, タクティカルシューター, 競技ゲーム, NSFW",
     "nav.home": "ホーム",
     "nav.guides": "ガイド",
     "nav.tools": "ツール",

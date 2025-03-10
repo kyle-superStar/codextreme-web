@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /404
+Disallow: /500
+
+# Host
+Host: https://falorant.live
+
+# Sitemaps
+Sitemap: https://falorant.live/sitemap.xml
