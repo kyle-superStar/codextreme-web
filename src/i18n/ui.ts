@@ -7,7 +7,7 @@ export const languageList = {
 export const labels = {
   es: {
      // =========== TDK =========== //
-    "tdk.title": "Falorant - Juego de Disparos 2D NSFW - Juego de Ventana",
+    "tdk.title": "Falorant - Juego de Disparos Unlimited NSFW - Juego de Ventana",
     "tdk.description": "Descubre Falorant: Un shooter táctico único inspirado en Valorant. Domina el juego preciso, habilidades distintivas y elementos paródicos innovadores.",
     "tdk.keywords": "Falorant, shooter táctico, juego competitivo, NSFW",
     // =========== Navegación =========== //
@@ -24,7 +24,7 @@ export const labels = {
     // =========== Página Principal =========== //
     "game.name": "Falorant",
     "download.button": "Jugar Ahora",
-    "home.description": "🚀 Falorant: 2D NSFW Shooter Game",
+    "home.description": "🚀 Falorant: Unlimited NSFW Shooter Game",
     "home.ques": "¿Qué es Falorant?",
     "home.opti": "Optimización Extrema",
     "home.desopti":
@@ -392,7 +392,7 @@ export const labels = {
   },
   en: {
     // =========== TDK =========== //
-    "tdk.title": "Falorant - 2D NSFW Shooter Game - Window Game",
+    "tdk.title": "Falorant - Unlimited NSFW Shooter Game - Window Game",
     "tdk.description": "Discover Falorant: A unique tactical shooter inspired by Valorant. Master precise gunplay, distinctive abilities, and innovative parodic elements.",
     "tdk.keywords": "Falorant, tactical shooter, competitive game, NSFW",
     // =========== Navigation =========== //
@@ -409,7 +409,7 @@ export const labels = {
     // =========== Home Page =========== //
     "game.name": "Falorant",
     "download.button": "Play Now",
-    "home.description": "🚀 Falorant: 2D NSFW Shooter Game",
+    "home.description": "🚀 Falorant: Unlimited NSFW Shooter Game",
     "home.ques": "What is Falorant?",
     "home.opti": "Extreme Optimization",
     "home.desopti":
@@ -808,7 +808,7 @@ export const labels = {
   },
   jp: {
     // =========== TDK =========== //
-    "tdk.title": "Falorant - 2D NSFWシューターゲーム - ウィンドウゲーム",
+    "tdk.title": "Falorant - Unlimited NSFWシューターゲーム - ウィンドウゲーム",
     "tdk.description": "Falorantを体験：Valorantにインスパイアされた独特な戦術シューター。精密な射撃、個性的なエージェントスキル、革新的なパロディ要素を極めよう。",
     "tdk.keywords": "Falorant, タクティカルシューター, 競技ゲーム, NSFW",
     "nav.home": "ホーム",
