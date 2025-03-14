@@ -405,7 +405,7 @@ export const labels = {
   },
   en: {
     // =========== TDK =========== //
-    "tdk.title": "Falorant - Unlimited NSFW Shooter Game - Window Game",
+    "tdk.title": "Falorant - Unlimited NSFW Shooter Game - play online",
     "tdk.description": "Discover Falorant: A unique tactical shooter inspired by Valorant. Master precise gunplay, distinctive abilities, and innovative parodic elements.",
     "tdk.keywords": "Falorant, tactical shooter, competitive game, NSFW",
     // =========== Navigation =========== //
