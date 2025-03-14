@@ -86,6 +86,30 @@ export const labels = {
     "home.gameplay": "Ver Gameplay",
     "home.gameplay.description": "Experience the intense action and strategic depth of Falorant",
 
+    // =========== FAQ Section =========== //
+    "home.faq.title": "Preguntas Frecuentes",
+    "home.faq.q1": "¿Qué es Falorant?",
+    "home.faq.a1": "Falorant es un juego de disparos táctico en primera persona que combina disparos precisos con habilidades únicas de agentes. Es un juego basado en equipos donde la estrategia, la habilidad y la coordinación son clave para la victoria.",
+    "home.faq.q2": "¿Cómo juego a Falorant?",
+    "home.faq.a2": "Puedes jugar a Falorant directamente en tu navegador utilizando el marco de juego en nuestra página de inicio. Para la mejor experiencia, recomendamos usar un navegador moderno como Chrome, Firefox o Edge.",
+    "home.faq.q3": "¿Qué agentes están disponibles en Falorant?",
+    "home.faq.a3": "Falorant cuenta con una diversa lista de agentes, cada uno con habilidades y estilos de juego únicos. Los agentes se categorizan en diferentes roles como Duelistas, Iniciadores, Controladores y Centinelas, cada uno cumpliendo un propósito específico en la composición del equipo.",
+    "home.faq.q4": "¿Cómo funciona el sistema económico?",
+    "home.faq.a4": "El sistema económico en Falorant requiere una gestión estratégica de créditos. Ganas créditos al ganar rondas, conseguir eliminaciones y plantar/desactivar la spike. Estos créditos se pueden usar para comprar armas, escudos y habilidades al comienzo de cada ronda.",
+    "home.faq.q5": "¿Qué mapas están disponibles para jugar?",
+    "home.faq.a5": "Falorant presenta varios mapas diseñados estratégicamente, cada uno con diseños y puntos de referencia únicos. Cada mapa está cuidadosamente equilibrado para proporcionar un juego justo tanto para equipos atacantes como defensores, con varios puntos de estrangulamiento, áreas abiertas y posiciones tácticas.",
+    "home.faq.q6": "¿Cómo funcionan las habilidades en Falorant?",
+    "home.faq.a6": "Cada agente tiene cuatro habilidades únicas: una habilidad de firma (gratuita cada ronda), dos habilidades comprables y una habilidad definitiva que se carga a través de eliminaciones, muertes, orbes y plantar/desactivar la spike. Las habilidades complementan el juego de disparos en lugar de reemplazarlo, añadiendo profundidad táctica al juego.",
+    "home.faq.q7": "¿Cómo es el sistema de clasificación?",
+    "home.faq.a7": "Falorant presenta un sistema de clasificación competitivo con múltiples niveles desde Hierro hasta Radiante. Tu rango se determina por tu rendimiento en partidas competitivas, con factores como victorias de ronda, rendimiento personal y resultados de partidas afectando tu calificación de rango.",
+    "home.faq.q8": "¿Puedo jugar a Falorant en dispositivos móviles?",
+    "home.faq.a8": "Actualmente, Falorant está optimizado para navegadores de escritorio. Aunque puedas acceder a él en dispositivos móviles, la experiencia de juego está diseñada para controles de teclado y ratón. Estamos explorando la optimización móvil para futuras actualizaciones.",
+    "home.faq.q9": "¿Hay un tutorial para principiantes?",
+    "home.faq.a9": "Sí, Falorant incluye un modo tutorial para principiantes para aprender las mecánicas básicas, habilidades de agentes y objetivos del juego. También recomendamos consultar nuestra sección de guías para consejos y estrategias adicionales para mejorar tu juego.",
+    "home.faq.q10": "¿Cómo puedo reportar errores o proporcionar comentarios?",
+    "home.faq.a10": "¡Valoramos tus comentarios! Puedes reportar errores o proporcionar sugerencias a través de nuestra página de contacto. Tu aporte nos ayuda a mejorar la experiencia de juego para todos. Actualizamos regularmente el juego basándonos en los comentarios de la comunidad.",
+    "home.faq.viewAll": "Ver Todas las Preguntas Frecuentes",
+
     // =========== Sección NTLite =========== //
     "ntlite.ntlite_name": "NTLite",
     "ntlite.aria.forum": "Enlace al foro oficial de guías de NTLite",
@@ -368,10 +392,9 @@ export const labels = {
   },
   en: {
     // =========== TDK =========== //
-    "tdk.title": "Falorant - 2D NSFW Shooter Game - window Game",
-    "tdk.description": "Experience Falorant: A unique tactical shooter inspired by Valorant. Master precise gunplay, distinctive agent abilities, and innovative parody elements.",
-    "tdk.keywords": "Falorant, tactical shooter, competitive gaming,NSFW",
-
+    "tdk.title": "Falorant - 2D NSFW Shooter Game - Window Game",
+    "tdk.description": "Discover Falorant: A unique tactical shooter inspired by Valorant. Master precise gunplay, distinctive abilities, and innovative parodic elements.",
+    "tdk.keywords": "Falorant, tactical shooter, competitive game, NSFW",
     // =========== Navigation =========== //
     "nav.home": "Home",
     "nav.guides": "Guides",
@@ -379,6 +402,7 @@ export const labels = {
     "nav.software": "Software",
     "nav.download": "Downloads",
     "nav.faq": "FAQ",
+
     // =========== Theme =========== //
     "theme.toggle": "Toggle Theme",
 
@@ -393,12 +417,14 @@ export const labels = {
     "home.dev.des":
       "Created by CodeFlow with months of testing and optimizations for extreme performance.",
     "home.safety": "Guaranteed Security",
-    "home.safe.des": "With the latest security updates and malware protection.",
+    "home.safe.des":
+      "With the latest security updates and malware protection.",
     "home.xbox": "Xbox Live",
     "home.xbox.des":
       "Connect to Xbox Live and enjoy your favorite games on your PC.",
     "home.update": "Smart Updates",
-    "home.update.des": "Only critical and security updates, no interruptions.",
+    "home.update.des":
+      "Only critical and security updates, without interruptions.",
     "home.performance": "Extreme Performance",
     "home.performance.des":
       "With extreme performance for gaming and productivity.",
@@ -409,8 +435,8 @@ export const labels = {
       "Tools to customize the appearance of Windows without resource consumption.",
     "home.support": "24/7 Support",
     "home.support.des":
-      "Active community and 24/7 technical support to resolve your doubts and issues.",
-    "home.features": "Key Features",
+      "Active community and 24/7 technical support to solve your doubts and problems.",
+    "home.features": "Main Features",
     "home.low": "Tactical Gameplay",
     "home.low.des":
       "Precision gunplay combined with unique agent abilities creates a perfect balance of skill and strategy.",
@@ -429,7 +455,7 @@ export const labels = {
     "home.agents": "Unique Agents",
     "home.agents.des": "Choose from a diverse cast of agents, each bringing their own unique abilities to the battlefield",
     "home.maps": "Strategic Maps",
-    "home.maps.des": "Master multiple maps designed for competitive tactical gameplay and strategic depth",
+    "home.maps.des": "Master multiple maps designed for competitive tactical play and strategic depth",
     "home.weapons": "Arsenal Mastery",
     "home.weapons.des": "Learn to control an arsenal of weapons, each with unique recoil patterns and gameplay characteristics",
     "home.competitive": "Competitive Rankings",
@@ -444,6 +470,30 @@ export const labels = {
     "home.rounds.des": "Compete in intense round-based matches where every decision matters",
     "home.gameplay": "Watch Gameplay",
     "home.gameplay.description": "Experience the intense action and strategic depth of Falorant",
+
+    // =========== FAQ Section =========== //
+    "home.faq.title": "Frequently Asked Questions",
+    "home.faq.q1": "What is Falorant?",
+    "home.faq.a1": "Falorant is a tactical first-person shooter game that combines precise gunplay with unique agent abilities. It's a team-based game where strategy, skill, and coordination are key to victory.",
+    "home.faq.q2": "How do I play Falorant?",
+    "home.faq.a2": "You can play Falorant directly in your browser by using the game frame on our homepage. For the best experience, we recommend using a modern browser like Chrome, Firefox, or Edge.",
+    "home.faq.q3": "What agents are available in Falorant?",
+    "home.faq.a3": "Falorant features a diverse roster of agents, each with unique abilities and playstyles. Agents are categorized into different roles such as Duelists, Initiators, Controllers, and Sentinels, each serving a specific purpose in team composition.",
+    "home.faq.q4": "How does the economy system work?",
+    "home.faq.a4": "The economy system in Falorant requires strategic management of credits. You earn credits by winning rounds, getting kills, and planting/defusing the spike. These credits can be used to purchase weapons, shields, and abilities at the beginning of each round.",
+    "home.faq.q5": "What maps are available to play?",
+    "home.faq.a5": "Falorant features several strategically designed maps, each with unique layouts and callouts. Each map is carefully balanced to provide fair gameplay for both attacking and defending teams, with various chokepoints, open areas, and tactical positions.",
+    "home.faq.q6": "How do abilities work in Falorant?",
+    "home.faq.a6": "Each agent has four unique abilities: a signature ability (free each round), two purchasable abilities, and an ultimate ability that charges through kills, deaths, orbs, and planting/defusing the spike. Abilities complement gunplay rather than replace it, adding tactical depth to the game.",
+    "home.faq.q7": "What is the ranking system like?",
+    "home.faq.a7": "Falorant features a competitive ranking system with multiple tiers from Iron to Radiant. Your rank is determined by your performance in competitive matches, with factors like round wins, personal performance, and match outcomes affecting your rank rating.",
+    "home.faq.q8": "Can I play Falorant on mobile devices?",
+    "home.faq.a8": "Currently, Falorant is optimized for desktop browsers. While you may be able to access it on mobile devices, the gameplay experience is designed for keyboard and mouse controls. We're exploring mobile optimization for future updates.",
+    "home.faq.q9": "Is there a tutorial for beginners?",
+    "home.faq.a9": "Yes, Falorant includes a tutorial mode for beginners to learn the basic mechanics, agent abilities, and game objectives. We also recommend checking out our guides section for additional tips and strategies to improve your gameplay.",
+    "home.faq.q10": "How can I report bugs or provide feedback?",
+    "home.faq.a10": "We value your feedback! You can report bugs or provide suggestions through our contact page. Your input helps us improve the game experience for everyone. We regularly update the game based on community feedback.",
+    "home.faq.viewAll": "View All FAQs",
 
     // =========== NTLite Section =========== //
     "ntlite.ntlite_name": "NTLite",
@@ -790,7 +840,6 @@ export const labels = {
     "home.abilities.des": "独自のエージェント能力を活用して機会を作り、敵を出し抜く",
     "home.rounds": "ラウンド制",
     "home.rounds.des": "すべての決定が重要な緊張感のあるラウンドベースの試合",
-    "home.features": "主な特徴",
     "home.gameplay": "ゲームプレイを見る",
     "home.gameplay.description": "Falorantのインテンシブなアクションと戦略的深さを体験",
     "home.go": "プレイする準備はできましたか？",
