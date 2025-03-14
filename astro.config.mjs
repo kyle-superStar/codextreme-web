@@ -7,7 +7,7 @@ export default defineConfig({
   site: 'https://falorant.live',
   i18n: {
     defaultLocale: 'en',
-    locales: ['es', 'en', 'jp'],
+    locales: ['es', 'en', 'jp', 'hi', 'tr'],
     routing:{
       prefixDefaultLocale: false,
     }
