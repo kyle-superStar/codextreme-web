@@ -69,8 +69,7 @@ This project is open source under the MIT license.
 ## Support and Contact
 Questions or suggestions?
 
-**CodeXtreme Team:** soporte@codeflow.dev
+Domain:https://falorant.live
 
-**Twitter:** @CodeF1ow
 
 ---
