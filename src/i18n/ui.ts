@@ -9,8 +9,8 @@ export const languageList = {
 export const labels = {
   es: {
      // =========== TDK =========== //
-    "tdk.title": "Falorant - Juego de Disparos Unlimited NSFW - Juego de Ventana",
-    "tdk.description": "Descubre Falorant: Un shooter táctico único inspirado en falorant. Domina el juego preciso, habilidades distintivas y elementos paródicos innovadores.",
+    "tdk.title": "Falorant - Juego de disparos táctico NSFW",
+    "tdk.description": "Juega Falorant, el mejor juego de disparos táctico NSFW. Domina el combate preciso, habilidades únicas y una experiencia de shooter innovadora. ¡Únete ahora!",
     "tdk.keywords": "Falorant, shooter táctico, juego competitivo, NSFW",
     // =========== Navegación =========== //
     "nav.home": "Inicio",
@@ -414,8 +414,8 @@ export const labels = {
   },
   en: {
     // =========== TDK =========== //
-    "tdk.title": "Falorant - Unlimited NSFW Shooter Game",
-    "tdk.description": "Discover Falorant: A unique tactical shooter inspired by falorant. Master precise gunplay, distinctive abilities, and innovative parodic elements.",
+    "tdk.title": "Falorant - NSFW Tactical Shooter Game",
+    "tdk.description": "Play Falorant, the ultimate NSFW tactical shooter game! Experience precise gunplay, unique agent abilities, and a thrilling parody of tactical shooters. Join now and master the battlefield!",
     "tdk.keywords": "Falorant, tactical shooter, competitive game, NSFW",
     // =========== Navigation =========== //
     "nav.home": "Home",
@@ -841,8 +841,8 @@ export const labels = {
   },
   jp: {
     // =========== TDK =========== //
-    "tdk.title": "Falorant - Unlimited NSFWシューターゲーム - ウィンドウゲーム",
-    "tdk.description": "Falorantを体験：falorantにインスパイアされた独特な戦術シューター。精密な射撃、個性的なエージェントスキル、革新的なパロディ要素を極めよう。",
+    "tdk.title": "Falorant - NSFW戦術シューターゲーム",
+    "tdk.description": "Falorantをプレイしよう！NSFWの戦術シューターゲームで、正確な射撃、ユニークな能力、そして斬新なパロディ要素を楽しめます。今すぐ参加！",
     "tdk.keywords": "Falorant, タクティカルシューター, 競技ゲーム, NSFW",
     "nav.home": "ホーム",
     "nav.guides": "ガイド",
@@ -936,8 +936,8 @@ export const labels = {
   },
   hi: {
     // =========== TDK =========== //
-    "tdk.title": "Falorant - असीमित NSFW शूटर गेम - विंडो गेम",
-    "tdk.description": "Falorant की खोज करें: falorant से प्रेरित एक अनोखा टैक्टिकल शूटर। सटीक गनप्ले, विशिष्ट क्षमताओं और नवीन पैरोडिक तत्वों में महारत हासिल करें।",
+    "tdk.title": "Falorant - NSFW टैक्टिकल शूटिंग गेम",
+    "tdk.description": "Falorant खेलें! यह एक अनोखा NSFW टैक्टिकल शूटिंग गेम है, जिसमें सटीक गनप्ले, विशेष क्षमताएँ और रोमांचक रणनीति शामिल हैं। अभी शामिल हों!",
     "tdk.keywords": "Falorant, टैक्टिकल शूटर, प्रतिस्पर्धी गेम, NSFW",
     // =========== Navigation =========== //
     "nav.home": "होम",
@@ -1067,8 +1067,8 @@ export const labels = {
   },
   tr: {
     // =========== TDK =========== //
-    "tdk.title": "Falorant - Sınırsız NSFW Nişancı Oyunu - Pencere Oyunu",
-    "tdk.description": "Falorant'ı keşfedin: falorant'tan esinlenen benzersiz bir taktiksel nişancı oyunu. Hassas silah oyunu, ayırt edici yetenekler ve yenilikçi parodi unsurlarında ustalaşın.",
+    "tdk.title": "Falorant - NSFW Taktik Nişancı Oyunu",
+    "tdk.description": "Falorant oyna! NSFW taktik nişancı oyununda hassas silah kullanımı, eşsiz ajan yetenekleri ve yenilikçi bir FPS deneyimi seni bekliyor. Hemen katıl!",
     "tdk.keywords": "Falorant, taktiksel nişancı, rekabetçi oyun, NSFW",
     // =========== Navigation =========== //
     "nav.home": "Ana Sayfa",
