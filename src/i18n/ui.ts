@@ -91,25 +91,34 @@ export const labels = {
     // =========== FAQ Section =========== //
     "home.faq.title": "Preguntas Frecuentes",
     "home.faq.q1": "¿Qué es Falorant?",
-    "home.faq.a1": "Falorant es un juego de disparos táctico en primera persona que combina disparos precisos con habilidades únicas de agentes. Es un juego basado en equipos donde la estrategia, la habilidad y la coordinación son clave para la victoria.",
-    "home.faq.q2": "¿Cómo juego a Falorant?",
-    "home.faq.a2": "Puedes jugar a Falorant directamente en tu navegador utilizando el marco de juego en nuestra página de inicio. Para la mejor experiencia, recomendamos usar un navegador moderno como Chrome, Firefox o Edge.",
+    "home.faq.a1": "Falorant es un juego de disparos en primera persona táctico que combina una jugabilidad precisa con habilidades estratégicas de agentes. El juego enfatiza el trabajo en equipo, la estrategia y la habilidad individual, haciendo que cada partida sea una experiencia intensa y dinámica.",
+
+    "home.faq.q2": "¿Cómo puedo jugar a Falorant?",
+    "home.faq.a2": "Puedes jugar a Falorant directamente en tu navegador utilizando el marco de juego en nuestra página de inicio. Para una mejor experiencia de juego, recomendamos usar un navegador moderno como Chrome, Firefox o Edge.",
+
     "home.faq.q3": "¿Qué agentes están disponibles en Falorant?",
-    "home.faq.a3": "Falorant cuenta con una diversa lista de agentes, cada uno con habilidades y estilos de juego únicos. Los agentes se categorizan en diferentes roles como Duelistas, Iniciadores, Controladores y Centinelas, cada uno cumpliendo un propósito específico en la composición del equipo.",
-    "home.faq.q4": "¿Cómo funciona el sistema económico?",
-    "home.faq.a4": "El sistema económico en Falorant requiere una gestión estratégica de créditos. Ganas créditos al ganar rondas, conseguir eliminaciones y plantar/desactivar la spike. Estos créditos se pueden usar para comprar armas, escudos y habilidades al comienzo de cada ronda.",
-    "home.faq.q5": "¿Qué mapas están disponibles para jugar?",
-    "home.faq.a5": "Falorant presenta varios mapas diseñados estratégicamente, cada uno con diseños y puntos de referencia únicos. Cada mapa está cuidadosamente equilibrado para proporcionar un juego justo tanto para equipos atacantes como defensores, con varios puntos de estrangulamiento, áreas abiertas y posiciones tácticas.",
+    "home.faq.a3": "Falorant cuenta con una variedad de agentes, cada uno con habilidades y roles únicos. El juego clasifica a los agentes en Duelistas, Iniciadores, Controladores y Centinelas, asegurando una variedad estratégica en cada partida.",
+
+    "home.faq.q4": "¿Cómo funciona el sistema económico en Falorant?",
+    "home.faq.a4": "El sistema económico en Falorant requiere una gestión cuidadosa de los créditos. Los jugadores ganan créditos al ganar rondas, hacer eliminaciones y completar objetivos como plantar o desactivar la spike. Estos créditos son esenciales para comprar armas, escudos y habilidades, influyendo en la profundidad táctica del juego.",
+
+    "home.faq.q5": "¿Qué mapas están disponibles en Falorant?",
+    "home.faq.a5": "Falorant cuenta con varios mapas diseñados estratégicamente para equilibrar el juego tanto para atacantes como para defensores. Los mapas del juego incluyen diseños únicos con puntos de estrangulamiento, espacios abiertos y posiciones tácticas que mejoran el juego estratégico.",
+
     "home.faq.q6": "¿Cómo funcionan las habilidades en Falorant?",
-    "home.faq.a6": "Cada agente tiene cuatro habilidades únicas: una habilidad de firma (gratuita cada ronda), dos habilidades comprables y una habilidad definitiva que se carga a través de eliminaciones, muertes, orbes y plantar/desactivar la spike. Las habilidades complementan el juego de disparos en lugar de reemplazarlo, añadiendo profundidad táctica al juego.",
-    "home.faq.q7": "¿Cómo es el sistema de clasificación?",
-    "home.faq.a7": "Falorant presenta un sistema de clasificación competitivo con múltiples niveles desde Hierro hasta Radiante. Tu rango se determina por tu rendimiento en partidas competitivas, con factores como victorias de ronda, rendimiento personal y resultados de partidas afectando tu calificación de rango.",
+    "home.faq.a6": "Cada agente en Falorant tiene cuatro habilidades únicas: una habilidad característica (gratis en cada ronda), dos habilidades comprables y una habilidad definitiva que se carga con acciones dentro del juego. Estas habilidades añaden profundidad estratégica al juego sin reemplazar la mecánica central de disparos.",
+
+    "home.faq.q7": "¿Cómo funciona el sistema de clasificación en Falorant?",
+    "home.faq.a7": "Falorant cuenta con un sistema de clasificación competitivo con rangos que van desde Hierro hasta Radiante. Tu rango en el juego se determina por factores de rendimiento como las rondas ganadas, las estadísticas personales y los resultados de los partidos. Subir de rango requiere habilidad y estrategia constantes.",
+
     "home.faq.q8": "¿Puedo jugar a Falorant en dispositivos móviles?",
-    "home.faq.a8": "Actualmente, Falorant está optimizado para navegadores de escritorio. Aunque puedas acceder a él en dispositivos móviles, la experiencia de juego está diseñada para controles de teclado y ratón. Estamos explorando la optimización móvil para futuras actualizaciones.",
-    "home.faq.q9": "¿Hay un tutorial para principiantes?",
-    "home.faq.a9": "Sí, Falorant incluye un modo tutorial para principiantes para aprender las mecánicas básicas, habilidades de agentes y objetivos del juego. También recomendamos consultar nuestra sección de guías para consejos y estrategias adicionales para mejorar tu juego.",
-    "home.faq.q10": "¿Cómo puedo reportar errores o proporcionar comentarios?",
-    "home.faq.a10": "¡Valoramos tus comentarios! Puedes reportar errores o proporcionar sugerencias a través de nuestra página de contacto. Tu aporte nos ayuda a mejorar la experiencia de juego para todos. Actualizamos regularmente el juego basándonos en los comentarios de la comunidad.",
+    "home.faq.a8": "Actualmente, Falorant está optimizado para navegadores de escritorio. Aunque es posible acceder al juego en dispositivos móviles, está diseñado para controles de teclado y ratón. En futuras actualizaciones, podríamos incluir optimizaciones móviles.",
+
+    "home.faq.q9": "¿Falorant tiene un tutorial para principiantes?",
+    "home.faq.a9": "¡Sí! Falorant ofrece un modo tutorial que introduce a los nuevos jugadores en las mecánicas del juego, las habilidades de los agentes y los objetivos principales. Además, nuestra sección de guías proporciona consejos valiosos para mejorar la experiencia de juego en Falorant.",
+
+    "home.faq.q10": "¿Cómo puedo informar de errores o dar comentarios?",
+    "home.faq.a10": "¡Apreciamos tus comentarios! Puedes informar de errores o enviar sugerencias a través de nuestra página de contacto. La opinión de los jugadores nos ayuda a mejorar la experiencia de juego, y actualizamos Falorant regularmente en función de la retroalimentación de la comunidad.",
     "home.faq.viewAll": "Ver Todas las Preguntas Frecuentes",
 
      // =========== home -share  =========== //
@@ -487,25 +496,25 @@ export const labels = {
     // =========== FAQ Section =========== //
     "home.faq.title": "Frequently Asked Questions",
     "home.faq.q1": "What is Falorant?",
-    "home.faq.a1": "Falorant is a tactical first-person shooter game that combines precise gunplay with unique agent abilities. It's a team-based game where strategy, skill, and coordination are key to victory.",
+    "home.faq.a1": "Falorant is a tactical first-person shooter game that blends precise gunplay with strategic agent abilities. The game emphasizes teamwork, strategy, and individual skill, making each match an intense and dynamic experience.",    
     "home.faq.q2": "How do I play Falorant?",
-    "home.faq.a2": "You can play Falorant directly in your browser by using the game frame on our homepage. For the best experience, we recommend using a modern browser like Chrome, Firefox, or Edge.",
+    "home.faq.a2": "You can play Falorant directly in your browser using the game frame on our homepage. For the best gameplay experience, we recommend using a modern browser like Chrome, Firefox, or Edge.",
     "home.faq.q3": "What agents are available in Falorant?",
-    "home.faq.a3": "Falorant features a diverse roster of agents, each with unique abilities and playstyles. Agents are categorized into different roles such as Duelists, Initiators, Controllers, and Sentinels, each serving a specific purpose in team composition.",
-    "home.faq.q4": "How does the economy system work?",
-    "home.faq.a4": "The economy system in Falorant requires strategic management of credits. You earn credits by winning rounds, getting kills, and planting/defusing the spike. These credits can be used to purchase weapons, shields, and abilities at the beginning of each round.",
-    "home.faq.q5": "What maps are available to play?",
-    "home.faq.a5": "Falorant features several strategically designed maps, each with unique layouts and callouts. Each map is carefully balanced to provide fair gameplay for both attacking and defending teams, with various chokepoints, open areas, and tactical positions.",
+    "home.faq.a3": "Falorant features a diverse roster of agents, each with unique abilities and roles. The game categorizes agents into Duelists, Initiators, Controllers, and Sentinels, ensuring strategic variety in every match.",
+    "home.faq.q4": "How does the economy system work in Falorant?",
+    "home.faq.a4": "The economy system in Falorant requires careful management of credits. Players earn credits by winning rounds, making kills, and completing objectives like planting or defusing the spike. These credits are essential for purchasing weapons, shields, and abilities, influencing the game’s tactical depth.",
+    "home.faq.q5": "What maps are available in Falorant?",
+    "home.faq.a5": "Falorant features multiple maps, each designed to balance gameplay for both attacking and defending teams. The game’s maps include unique layouts with chokepoints, open spaces, and strategic positions that enhance tactical play.",
     "home.faq.q6": "How do abilities work in Falorant?",
-    "home.faq.a6": "Each agent has four unique abilities: a signature ability (free each round), two purchasable abilities, and an ultimate ability that charges through kills, deaths, orbs, and planting/defusing the spike. Abilities complement gunplay rather than replace it, adding tactical depth to the game.",
-    "home.faq.q7": "How is the ranking system like?",
-    "home.faq.a7": "Falorant features a competitive ranking system with multiple tiers from Iron to Radiant. Your rank is determined by your performance in competitive matches, with factors like round wins, personal performance, and match outcomes affecting your rank rating.",
+    "home.faq.a6": "Each agent in Falorant has four unique abilities: a signature ability (free each round), two purchasable abilities, and an ultimate ability that charges through in-game actions. These abilities add strategic depth to the game without replacing core gunplay mechanics.",
+    "home.faq.q7": "How does the ranking system work in Falorant?",
+    "home.faq.a7": "Falorant features a competitive ranking system, with tiers ranging from Iron to Radiant. Your game rank is determined by performance factors such as round wins, personal statistics, and match results. Climbing ranks requires consistent skill and strategy.",
     "home.faq.q8": "Can I play Falorant on mobile devices?",
-    "home.faq.a8": "Currently, Falorant is optimized for desktop browsers. While you may be able to access it on mobile devices, the gameplay experience is designed for keyboard and mouse controls. We're exploring mobile optimization for future updates.",
+    "home.faq.a8": "Currently, Falorant is optimized for desktop browsers. While it may be accessible on mobile devices, the game is designed for keyboard and mouse controls. Future updates may include mobile optimizations.",
     "home.faq.q9": "Is there a tutorial for beginners?",
-    "home.faq.a9": "Yes, Falorant includes a tutorial mode for beginners to learn the basic mechanics, agent abilities, and game objectives. We also recommend checking out our guides section for additional tips and strategies to improve your gameplay.",
+    "home.faq.a9": "Yes! Falorant provides a tutorial mode that introduces new players to game mechanics, agent abilities, and core objectives. Additionally, our guides section offers valuable tips to help players improve their Falorant gameplay.",
     "home.faq.q10": "How can I report bugs or provide feedback?",
-    "home.faq.a10": "We value your feedback! You can report bugs or provide suggestions through our contact page. Your input helps us improve the game experience for everyone. We regularly update the game based on community feedback.",
+    "home.faq.a10": "We appreciate your feedback! You can report bugs or submit suggestions through our contact page. Player input helps us enhance the game experience, and we regularly update Falorant based on community feedback.",
     "home.faq.viewAll": "View All FAQs",
 
      // =========== home share =========== //
@@ -870,25 +879,34 @@ export const labels = {
     // =========== FAQ Section =========== //
     "home.faq.title": "よくある質問",
     "home.faq.q1": "Falorantとは何ですか？",
-    "home.faq.a1": "Falorantは、精密な射撃とユニークなエージェント能力を組み合わせた戦術的なファーストパーソンシューターゲームです。戦略、スキル、そして連携が勝利への鍵となるチームベースのゲームです。",
-    "home.faq.q2": "Falorantはどうやってプレイしますか？",
-    "home.faq.a2": "ホームページのゲームフレームを使用して、ブラウザで直接Falorantをプレイできます。最高の体験を得るには、Chrome、Firefox、Edgeなどの最新ブラウザの使用をお勧めします。",
-    "home.faq.q3": "Falorantにはどのようなエージェントがありますか？",
-    "home.faq.a3": "Falorantには、それぞれ独自の能力とプレイスタイルを持つ多様なエージェントが登場します。エージェントはデュエリスト、イニシエーター、コントローラー、センチネルなどの異なる役割に分類され、それぞれがチーム構成において特定の目的を果たします。",
-    "home.faq.q4": "経済システムはどのように機能しますか？",
-    "home.faq.a4": "Falorantの経済システムでは、クレジットの戦略的な管理が必要です。ラウンドの勝利、キル、スパイクの設置/解除によってクレジットを獲得します。これらのクレジットは、各ラウンドの開始時に武器、シールド、能力を購入するために使用できます。",
-    "home.faq.q5": "プレイできるマップはどのようなものがありますか？",
-    "home.faq.a5": "Falorantには、それぞれ独自のレイアウトとコールアウトを持つ戦略的に設計されたマップがいくつか用意されています。各マップは、攻撃側と防御側の両方に公平なゲームプレイを提供するよう慎重にバランスが取られており、様々なチョークポイント、オープンエリア、戦術的なポジションがあります。",
-    "home.faq.q6": "能力はどのように機能しますか？",
-    "home.faq.a6": "各エージェントには4つの独自の能力があります：シグネチャー能力（各ラウンド無料）、購入可能な2つの能力、そしてキル、デス、オーブ、スパイクの設置/解除によってチャージされるアルティメット能力です。能力は射撃を補完するものであり、代替するものではなく、ゲームに戦術的な深みを加えます。",
-    "home.faq.q7": "ランキングシステムはどのようなものですか？",
-    "home.faq.a7": "Falorantには、アイアンからラディアントまでの複数のティアを持つ競争的なランキングシステムがあります。あなたのランクは競争マッチでのパフォーマンスによって決まり、ラウンドの勝利、個人のパフォーマンス、試合の結果などの要素があなたのランクレーティングに影響します。",
-    "home.faq.q8": "モバイルデバイスでFalorantをプレイできますか？",
-    "home.faq.a8": "現在、Falorantはデスクトップブラウザ向けに最適化されています。モバイルデバイスでアクセスできる場合もありますが、ゲームプレイ体験はキーボードとマウスのコントロール用に設計されています。将来のアップデートではモバイル最適化を検討しています。",
+    "home.faq.a1": "Falorantは、正確なガンプレイと戦略的なエージェントスキルを組み合わせたタクティカルFPSゲームです。このゲームでは、チームワーク、戦略、個人のスキルが重要で、各試合が緊張感あふれるダイナミックな体験となります。",
+
+    "home.faq.q2": "Falorantをプレイするにはどうすればよいですか？",
+    "home.faq.a2": "Falorantは、ホームページのゲームフレームを使用して、ブラウザで直接プレイできます。最高のゲーム体験を得るには、Chrome、Firefox、Edgeなどの最新のブラウザを推奨します。",
+
+    "home.faq.q3": "Falorantのエージェントはどのようなものがありますか？",
+    "home.faq.a3": "Falorantには多様なエージェントが登場し、それぞれ独自のスキルと役割を持っています。ゲームでは、エージェントをデュエリスト、イニシエーター、コントローラー、センチネルに分類し、戦略的なバリエーションを提供します。",
+
+    "home.faq.q4": "Falorantの経済システムはどのように機能しますか？",
+    "home.faq.a4": "Falorantのゲーム経済は、クレジットの慎重な管理が求められます。ラウンド勝利、キル、スパイクの設置・解除などでクレジットを獲得し、武器、防具、スキルの購入に使用します。戦略的な資金管理がゲームの勝敗を左右します。",
+
+    "home.faq.q5": "Falorantのマップにはどのようなものがありますか？",
+    "home.faq.a5": "Falorantのマップは、攻撃側と防御側のバランスを考慮して設計されています。ゲーム内の各マップには、戦略的なエリアや開けたスペース、重要なポジションがあり、プレイヤーの戦術を試す場となります。",
+
+    "home.faq.q6": "Falorantのスキルはどのように機能しますか？",
+    "home.faq.a6": "Falorantの各エージェントには4つのスキルがあります。シグネチャースキル（毎ラウンド無料）、2つの購入可能スキル、キルやスパイクの設置でチャージされるアルティメットスキルです。スキルを駆使することで、ゲームに戦略的な深みを加えることができます。",
+
+    "home.faq.q7": "Falorantのランクシステムはどのようになっていますか？",
+    "home.faq.a7": "Falorantのゲームランクは、アイアンからラディアントまでの複数のティアに分かれています。ランクはラウンド勝利、個人成績、試合結果などの要素によって決まります。スキルと戦略を磨くことで、ランクアップが可能です。",
+
+    "home.faq.q8": "Falorantはモバイルデバイスでプレイできますか？",
+    "home.faq.a8": "現在、FalorantはPC向けに最適化されています。モバイルでもアクセス可能ですが、キーボードとマウス操作が前提となっています。今後のアップデートでモバイル最適化を検討中です。",
+    
     "home.faq.q9": "初心者向けのチュートリアルはありますか？",
-    "home.faq.a9": "はい、Falorantには初心者が基本的なメカニクス、エージェントの能力、ゲームの目標を学ぶためのチュートリアルモードが含まれています。また、ゲームプレイを向上させるための追加のヒントや戦略については、ガイドセクションをチェックすることをお勧めします。",
-    "home.faq.q10": "バグを報告したり、フィードバックを提供したりするにはどうすればよいですか？",
-    "home.faq.a10": "あなたのフィードバックを大切にしています！コンタクトページからバグを報告したり、提案を提供したりできます。あなたの意見は、すべての人のゲーム体験を向上させるのに役立ちます。私たちはコミュニティのフィードバックに基づいて定期的にゲームを更新しています。",
+    "home.faq.a9": "はい、Falorantには初心者向けのチュートリアルモードがあります。ゲームの基本メカニクス、エージェントのアビリティ、目的の理解を深めることができます。また、ガイドセクションでは、ゲームプレイを向上させるための追加のヒントや戦略を紹介しています。",
+
+    "home.faq.q10": "バグの報告やフィードバックはどのように行えますか？",
+    "home.faq.a10": "皆様のフィードバックを大切にしています！バグ報告や提案は、当サイトのコンタクトページから送信できます。プレイヤーの意見を基に、Falorantをより良いゲームにするために定期的なアップデートを行っています。",
     "home.faq.viewAll": "すべてのFAQを表示",
 
     "copy.success": "リンクがクリップボードにコピーされました！",
@@ -961,25 +979,34 @@ export const labels = {
     // =========== FAQ Section =========== //
     "home.faq.title": "अक्सर पूछे जाने वाले प्रश्न",
     "home.faq.q1": "Falorant क्या है?",
-    "home.faq.a1": "Falorant एक रणनीतिक फर्स्ट-पर्सन शूटर गेम है जो सटीक गनप्ले और अनोखी एजेंट क्षमताओं को जोड़ती है। यह एक टीम-आधारित गेम है जहां रणनीति, कौशल और समन्वय जीत के लिए महत्वपूर्ण हैं।",
-    "home.faq.q2": "मैं Falorant कैसे खेलूं?",
-    "home.faq.a2": "आप हमारे होमपेज पर गेम फ्रेम का उपयोग करके अपने ब्राउज़र में सीधे Falorant खेल सकते हैं। सर्वोत्तम अनुभव के लिए, हम Chrome, Firefox, या Edge जैसे आधुनिक ब्राउज़र का उपयोग करने की सलाह देते हैं।",
-    "home.faq.q3": "Falorant में कौन से एजेंट उपलब्ध हैं?",
-    "home.faq.a3": "Falorant में विविध एजेंटों की एक श्रृंखला है, प्रत्येक की अपनी अनोखी क्षमताएं और खेलने की शैली है। एजेंट विभिन्न भूमिकाओं जैसे ड्यूलिस्ट, इनिशिएटर, कंट्रोलर और सेंटिनल में वर्गीकृत हैं, प्रत्येक टीम संरचना में एक विशिष्ट उद्देश्य की पूर्ति करता है।",
-    "home.faq.q4": "अर्थव्यवस्था प्रणाली कैसे काम करती है?",
-    "home.faq.a4": "Falorant में अर्थव्यवस्था प्रणाली के लिए क्रेडिट के रणनीतिक प्रबंधन की आवश्यकता होती है। आप राउंड जीतने, किल प्राप्त करने और स्पाइक लगाने/निष्क्रिय करने से क्रेडिट अर्जित करते हैं। इन क्रेडिट का उपयोग प्रत्येक राउंड की शुरुआत में हथियार, शील्ड और क्षमताएं खरीदने के लिए किया जा सकता है।",
-    "home.faq.q5": "खेलने के लिए कौन से मैप उपलब्ध हैं?",
-    "home.faq.a5": "Falorant में कई रणनीतिक रूप से डिज़ाइन किए गए मैप हैं, प्रत्येक के अपने अनोखे लेआउट और कॉलआउट हैं। प्रत्येक मैप को आक्रमण और रक्षा दोनों टीमों के लिए निष्पक्ष गेमप्ले प्रदान करने के लिए सावधानीपूर्वक संतुलित किया गया है, जिसमें विभिन्न चोकपॉइंट, खुले क्षेत्र और रणनीतिक स्थिति हैं।",
-    "home.faq.q6": "क्षमताएं Falorant में कैसे काम करती हैं?",
-    "home.faq.a6": "प्रत्येक एजेंट की चार अनोखी क्षमताएं होती हैं: एक सिग्नेचर क्षमता (प्रत्येक राउंड में मुफ्त), दो खरीदने योग्य क्षमताएं, और एक अल्टीमेट क्षमता जो किल, मौत, ऑर्ब्स और स्पाइक लगाने/निष्क्रिय करने के माध्यम से चार्ज होती है। क्षमताएं गनप्ले को प्रतिस्थापित करने के बजाय पूरक होती हैं, जो गेम में रणनीतिक गहराई जोड़ती हैं।",
-    "home.faq.q7": "रैंकिंग सिस्टम कैसा है?",
-    "home.faq.a7": "Falorant में आयरन से रेडिएंट तक कई स्तरों वाली प्रतिस्पर्धी रैंकिंग प्रणाली है। आपका रैंक प्रतिस्पर्धी मैचों में आपके प्रदर्शन से निर्धारित होता है, जिसमें राउंड जीत, व्यक्तिगत प्रदर्शन और मैच परिणाम जैसे कारक आपकी रैंक रेटिंग को प्रभावित करते हैं।",
-    "home.faq.q8": "क्या मैं मोबाइल डिवाइस पर Falorant खेल सकता हूं?",
-    "home.faq.a8": "वर्तमान में, Falorant डेस्कटॉप ब्राउज़र के लिए अनुकूलित है। हालांकि आप मोबाइल डिवाइस पर इसे एक्सेस कर सकते हैं, गेमप्ले अनुभव कीबोर्ड और माउस नियंत्रण के लिए डिज़ाइन किया गया है। हम भविष्य के अपडेट के लिए मोबाइल अनुकूलन की खोज कर रहे हैं।",
-    "home.faq.q9": "क्या शुरुआती लोगों के लिए ट्यूटोरियल है?",
-    "home.faq.a9": "हां, Falorant में शुरुआती लोगों के लिए बुनियादी मैकेनिक्स, एजेंट क्षमताओं और गेम उद्देश्यों को सीखने के लिए एक ट्यूटोरियल मोड शामिल है। हम आपके गेमप्ले को बेहतर बनाने के लिए अतिरिक्त टिप्स और रणनीतियों के लिए हमारे गाइड सेक्शन को देखने की भी सलाह देते हैं।",
-    "home.faq.q10": "मैं बग्स की रिपोर्ट या फीडबैक कैसे दे सकता हूं?",
-    "home.faq.a10": "हम आपके फीडबैक को महत्व देते हैं! आप हमारे संपर्क पेज के माध्यम से बग्स की रिपोर्ट या सुझाव दे सकते हैं। आपका इनपुट हर किसी के लिए गेम अनुभव को बेहतर बनाने में मदद करता है। हम नियमित रूप से समुदाय के फीडबैक के आधार पर गेम को अपडेट करते हैं।",
+    "home.faq.a1": "Falorant एक सामरिक प्रथम-व्यक्ति शूटर गेम है, जो सटीक गनप्ले और अनोखी एजेंट क्षमताओं को जोड़ता है। यह एक टीम-आधारित गेम है, जहाँ रणनीति, कौशल और समन्वय जीत की कुंजी हैं।",
+
+    "home.faq.q2": "मैं Falorant कैसे खेल सकता हूँ?",
+    "home.faq.a2": "आप Falorant को सीधे अपने ब्राउज़र में हमारी होमपेज पर गेम फ्रेम का उपयोग करके खेल सकते हैं। सर्वोत्तम अनुभव के लिए, Chrome, Firefox या Edge जैसे आधुनिक ब्राउज़र का उपयोग करने की सिफारिश की जाती है।",
+
+    "home.faq.q3": "Falorant में कौन-कौन से एजेंट उपलब्ध हैं?",
+    "home.faq.a3": "Falorant में विभिन्न क्षमताओं और खेल शैलियों वाले कई एजेंट हैं। ये एजेंट चार श्रेणियों में विभाजित हैं: ड्यूलिस्ट, इनिशिएटर, कंट्रोलर और सेंटिनल, जो टीम संरचना में महत्वपूर्ण भूमिका निभाते हैं।",
+
+    "home.faq.q4": "Falorant में आर्थिक प्रणाली कैसे काम करती है?",
+    "home.faq.a4": "Falorant की अर्थव्यवस्था प्रणाली में खिलाड़ियों को रणनीतिक रूप से अपने क्रेडिट का प्रबंधन करना होता है। क्रेडिट राउंड जीतने, दुश्मनों को हराने और स्पाइक लगाने या निष्क्रिय करने से प्राप्त किए जाते हैं। इन क्रेडिट का उपयोग हथियार, ढाल और क्षमताएँ खरीदने के लिए किया जाता है।",
+
+    "home.faq.q5": "Falorant में कौन-कौन से नक्शे उपलब्ध हैं?",
+    "home.faq.a5": "Falorant में कई रणनीतिक रूप से डिज़ाइन किए गए नक्शे शामिल हैं, जिनमें अद्वितीय लेआउट और कॉलआउट होते हैं। प्रत्येक नक्शे को इस तरह संतुलित किया गया है कि यह हमलावर और रक्षकों दोनों के लिए निष्पक्ष गेमप्ले प्रदान करता है, जिसमें विभिन्न चोकप्वाइंट, खुले क्षेत्र और सामरिक स्थान होते हैं।",
+
+    "home.faq.q6": "Falorant में क्षमताएँ कैसे काम करती हैं?",
+    "home.faq.a6": "प्रत्येक एजेंट की चार विशिष्ट क्षमताएँ होती हैं: एक सिग्नेचर क्षमता (प्रत्येक राउंड में मुफ्त), दो खरीदने योग्य क्षमताएँ और एक अल्टीमेट क्षमता, जिसे किल, डेथ, ऑर्ब्स एकत्र करने और स्पाइक लगाने/डिफ्यूज़ करने से चार्ज किया जाता है। क्षमताएँ गनप्ले को प्रतिस्थापित नहीं करतीं बल्कि इसे अधिक रणनीतिक बनाती हैं।",
+
+    "home.faq.q7": "Falorant की रैंकिंग प्रणाली कैसी है?",
+    "home.faq.a7": "Falorant में एक प्रतिस्पर्धी रैंकिंग प्रणाली है, जिसमें आयरन से लेकर रेडिएंट तक के कई स्तर होते हैं। आपकी रैंक आपके प्रदर्शन, राउंड जीतने की संख्या और मैच के परिणामों के आधार पर तय होती है। उच्च रैंक तक पहुँचने के लिए लगातार कौशल और रणनीति की आवश्यकता होती है।",
+
+    "home.faq.q8": "क्या मैं Falorant को मोबाइल पर खेल सकता हूँ?",
+    "home.faq.a8": "वर्तमान में, Falorant को डेस्कटॉप ब्राउज़र के लिए ऑप्टिमाइज़ किया गया है। आप इसे मोबाइल डिवाइस पर एक्सेस कर सकते हैं, लेकिन गेम को विशेष रूप से कीबोर्ड और माउस नियंत्रण के लिए डिज़ाइन किया गया है। भविष्य के अपडेट में मोबाइल सपोर्ट की संभावनाओं की जाँच की जा रही है।",
+
+    "home.faq.q9": "क्या Falorant में शुरुआती खिलाड़ियों के लिए ट्यूटोरियल उपलब्ध है?",
+    "home.faq.a9": "हाँ, Falorant में एक ट्यूटोरियल मोड उपलब्ध है, जो नए खिलाड़ियों को गेम की मूल बातें, एजेंट क्षमताओं और गेम उद्देश्यों को सीखने में मदद करता है। इसके अलावा, हमारी गाइड सेक्शन में अतिरिक्त टिप्स और रणनीतियाँ दी गई हैं, जो आपके गेमप्ले को बेहतर बनाने में सहायक होंगी।",
+
+    "home.faq.q10": "मैं बग की रिपोर्ट कैसे कर सकता हूँ या प्रतिक्रिया कैसे दे सकता हूँ?",
+    "home.faq.a10": "हम आपकी प्रतिक्रिया को महत्व देते हैं! आप हमारी संपर्क पेज के माध्यम से बग रिपोर्ट कर सकते हैं या सुझाव दे सकते हैं। आपकी राय हमें Falorant को और बेहतर बनाने में मदद करती है, और हम नियमित रूप से गेम को अपडेट करते हैं ताकि खिलाड़ियों को सर्वोत्तम अनुभव मिल सके।",
     "home.faq.viewAll": "सभी FAQs देखें",
 
     // =========== home share =========== //
@@ -1037,28 +1064,6 @@ export const labels = {
     "faq.contact.description": "जो आप ढूंढ रहे हैं वह नहीं मिल रहा है? हमारी सपोर्ट टीम आपकी मदद के लिए यहां है।",
     "faq.contact.button": "सपोर्ट से संपर्क करें",
     
-    "home.faq.title": "अक्सर पूछे जाने वाले प्रश्न",
-    "home.faq.q1": "Falorant में कितने एजेंट हैं?",
-    "home.faq.a1": "Falorant में वर्तमान में 15 प्लेयेबल एजेंट हैं, प्रत्येक अपनी अनोखी क्षमताओं और खेलने की शैली के साथ।",
-    "home.faq.q2": "क्या मैं Falorant मोबाइल पर खेल सकता हूं?",
-    "home.faq.a2": "अभी नहीं, Falorant वर्तमान में केवल PC पर उपलब्ध है, लेकिन भविष्य में मोबाइल संस्करण की योजना है।",
-    "home.faq.q3": "Falorant में अर्थव्यवस्था कैसे काम करती है?",
-    "home.faq.a3": "खिलाड़ी राउंड जीतने, हारने और किल करने से क्रेडिट अर्जित करते हैं, जिन्हें हथियार, कवच और क्षमताओं पर खर्च किया जा सकता है।",
-    "home.faq.q4": "क्या Falorant खेलने के लिए मुफ्त है?",
-    "home.faq.a4": "हां, Falorant एक फ्री-टू-प्ले गेम है, हालांकि कॉस्मेटिक आइटम खरीदने के लिए इन-गेम खरीदारी उपलब्ध है।",
-    "home.faq.q5": "Falorant में कितने मैप हैं?",
-    "home.faq.a5": "Falorant में वर्तमान में 7 मैप हैं, प्रत्येक अपने अनोखे लेआउट और रणनीतिक अवसरों के साथ।",
-    "home.faq.q6": "क्षमताएं कैसे अनलॉक होती हैं?",
-    "home.faq.a6": "एजेंट क्षमताएं या तो प्रत्येक राउंड की शुरुआत में खरीदी जाती हैं या अल्टीमेट क्षमताओं के लिए, वे अंक जमा करके चार्ज होती हैं।",
-    "home.faq.q7": "रैंकिंग सिस्टम कैसे काम करता है?",
-    "home.faq.a7": "खिलाड़ी 10 प्लेसमेंट मैच पूरे करने के बाद एक रैंक प्राप्त करते हैं और फिर जीत/हार और व्यक्तिगत प्रदर्शन के आधार पर ऊपर या नीचे जाते हैं।",
-    "home.faq.q8": "क्या मैं Falorant मैक पर खेल सकता हूं?",
-    "home.faq.a8": "हां, Falorant विंडोज और मैक दोनों पर उपलब्ध है, हालांकि मैक संस्करण के लिए अनुकूलित प्रदर्शन की आवश्यकता हो सकती है।",
-    "home.faq.q9": "Yeni oyuncular için eğitimler var mı?",
-    "home.faq.a9": "हां, Falorant'ta yeni oyunculara बेसिक मैकेनिक्स और गेमप्ले सिखाता है।",
-    "home.faq.q10": "मैं बग या हैकर्स की रिपोर्ट कैसे करूं?",
-    "home.faq.a10": "Oyun içi raporlama सिस्टम का उपयोग कर सकते हैं या हमारी वेबसाइट के माध्यम से एक सपोर्ट टिकट जमा कर सकते हैं।",
-    "home.faq.viewAll": "सभी अक्सर पूछे जाने वाले प्रश्न देखें"
   },
   tr: {
     // =========== TDK =========== //
@@ -1105,25 +1110,34 @@ export const labels = {
     // =========== FAQ Section =========== //
     "home.faq.title": "Sıkça Sorulan Sorular",
     "home.faq.q1": "Falorant nedir?",
-    "home.faq.a1": "Falorant, hassas silah oynanışını benzersiz ajan yetenekleriyle birleştiren taktiksel bir birinci şahıs nişancı oyunudur. Strateji, beceri ve koordinasyonun zafere giden yolda anahtar olduğu takım tabanlı bir oyundur.",
+    "home.faq.a1": "Falorant, hassas silah kullanımı ile stratejik ajan yeteneklerini birleştiren taktiksel bir birinci şahıs nişancı (FPS) oyunudur. Takım çalışması, strateji ve bireysel beceri zaferin anahtarıdır.",
+
     "home.faq.q2": "Falorant nasıl oynanır?",
-    "home.faq.a2": "Ana sayfamızdaki oyun çerçevesini kullanarak Falorant'ı doğrudan tarayıcınızda oynayabilirsiniz. En iyi deneyim için Chrome, Firefox veya Edge gibi modern bir tarayıcı kullanmanızı öneririz.",
-    "home.faq.q3": "Falorant'ta hangi ajanlar mevcut?",
-    "home.faq.a3": "Falorant, her biri benzersiz yeteneklere ve oyun stillerine sahip çeşitli ajanlar sunar. Ajanlar, Düellocu, Başlatıcı, Kontrolcü ve Nöbetçi gibi farklı rollere ayrılır ve her biri takım kompozisyonunda belirli bir amaca hizmet eder.",
-    "home.faq.q4": "Ekonomi sistemi nasıl çalışır?",
-    "home.faq.a4": "Falorant'taki ekonomi sistemi, kredilerin stratejik yönetimini gerektirir. Turları kazanarak, öldürme yaparak ve spike'ı yerleştirerek/etkisiz hale getirerek kredi kazanırsınız. Bu krediler, her turun başında silah, kalkan ve yetenekler satın almak için kullanılabilir.",
-    "home.faq.q5": "Hangi haritalar oynanabilir?",
-    "home.faq.a5": "Falorant, her biri benzersiz düzenlere ve çağrılara sahip stratejik olarak tasarlanmış birkaç harita sunar. Her harita, çeşitli darboğazlar, açık alanlar ve taktiksel pozisyonlarla hem saldıran hem de savunan takımlar için adil bir oyun deneyimi sağlamak üzere dikkatle dengelenmiştir.",
-    "home.faq.q6": "Yetenekler Falorant'ta nasıl çalışır?",
-    "home.faq.a6": "Her ajanın dört benzersiz yeteneği vardır: bir imza yeteneği (her turda ücretsiz), satın alınabilir iki yetenek ve öldürmeler, ölümler, küreler ve spike'ı yerleştirme/etkisiz hale getirme yoluyla şarj olan bir nihai yetenek. Yetenekler, silah oynanışını değiştirmek yerine tamamlar ve oyuna taktiksel derinlik katar.",
-    "home.faq.q7": "Sıralama sistemi nasıldır?",
-    "home.faq.a7": "Falorant, Demir'den Radyant'a kadar çoklu kademelere sahip rekabetçi bir sıralama sistemi sunar. Rütbeniz, rekabetçi maçlardaki performansınıza göre belirlenir; tur kazanımları, kişisel performans ve maç sonuçları gibi faktörler sıralama puanınızı etkiler.",
-    "home.faq.q8": "Falorant'ı mobil cihazlarda oynayabilir miyim?",
-    "home.faq.a8": "Şu anda Falorant masaüstü tarayıcılar için optimize edilmiştir. Mobil cihazlarda erişebilseniz de, oyun deneyimi klavye ve fare kontrolleri için tasarlanmıştır. Gelecek güncellemeler için mobil optimizasyonu araştırıyoruz.",
-    "home.faq.q9": "Yeni başlayanlar için bir öğretici var mı?",
-    "home.faq.a9": "Evet, Falorant, yeni başlayanların temel mekanikleri, ajan yeteneklerini ve oyun hedeflerini öğrenmesi için bir öğretici modu içerir. Ayrıca, oyun deneyiminizi geliştirmek için ek ipuçları ve stratejiler için rehberler bölümümüzü kontrol etmenizi öneririz.",
-    "home.faq.q10": "Hataları nasıl bildirebilir veya geri bildirim sağlayabilirim?",
-    "home.faq.a10": "Geri bildiriminize değer veriyoruz! İletişim sayfamız aracılığıyla hataları bildirebilir veya önerilerde bulunabilirsiniz. Katkınız, herkes için oyun deneyimini iyileştirmemize yardımcı olur. Oyunu düzenli olarak topluluk geri bildirimine dayalı olarak güncelliyoruz.",
+    "home.faq.a2": "Falorant'ı doğrudan tarayıcınızda oynayabilirsiniz. Ana sayfamızdaki oyun çerçevesini kullanarak oyuna erişebilirsiniz. En iyi deneyim için Chrome, Firefox veya Edge gibi modern bir tarayıcı kullanmanızı öneririz.",
+
+    "home.faq.q3": "Falorant’ta hangi ajanlar mevcut?",
+    "home.faq.a3": "Falorant’ta her biri kendine özgü yeteneklere ve oyun tarzlarına sahip çeşitli ajanlar bulunur. Ajanlar, takım kompozisyonunda belirli roller üstlenen Düellocu, Başlatıcı, Kontrol Uzmanı ve Gözcü olmak üzere dört kategoriye ayrılır.",
+
+    "home.faq.q4": "Falorant’ın ekonomi sistemi nasıl çalışır?",
+    "home.faq.a4": "Falorant'ta ekonomi yönetimi stratejik bir öneme sahiptir. Oyuncular, rauntları kazanarak, rakipleri öldürerek ve spike kurup etkisiz hale getirerek kredi kazanır. Bu krediler, tur başında silah, zırh ve yetenek satın almak için kullanılır.",
+
+    "home.faq.q5": "Falorant’ta hangi haritalar mevcut?",
+    "home.faq.a5": "Falorant, stratejik olarak tasarlanmış çeşitli haritalar sunar. Her harita, saldıran ve savunan taraflar için dengeli olacak şekilde tasarlanmıştır. Haritalarda dar geçitler, açık alanlar ve taktiksel pozisyonlar bulunur.",
+
+    "home.faq.q6": "Falorant’ta yetenekler nasıl çalışır?",
+    "home.faq.a6": "Her ajanın dört farklı yeteneği vardır: her tur ücretsiz olan imza yeteneği, satın alınabilir iki yetenek ve öldürmeler, ölümler, küre toplama veya spike kurup etkisiz hale getirme ile şarj olan ulti yeteneği. Yetenekler, silah kullanımını tamamlar ve oyuna stratejik bir derinlik katar.",
+
+    "home.faq.q7": "Falorant’ın dereceli sistemi nasıl işliyor?",
+    "home.faq.a7": "Falorant, Demir’den Radyant’a kadar uzanan bir rekabetçi derecelendirme sistemine sahiptir. Dereceniz, rekabetçi maçlardaki performansınıza göre belirlenir. Raunt galibiyetleri, kişisel performans ve maç sonuçları sıralamanızı etkiler.",
+
+    "home.faq.q8": "Falorant’ı mobil cihazlarda oynayabilir miyim?",
+    "home.faq.a8": "Şu an için Falorant, masaüstü tarayıcılar için optimize edilmiştir. Mobil cihazlardan erişim mümkün olsa da, oyun klavye ve fare kontrolleri için tasarlanmıştır. Gelecekte mobil uyumluluk için çalışmalar yapılmaktadır.",
+
+    "home.faq.q9": "Yeni başlayanlar için bir eğitim modu var mı?",
+    "home.faq.a9": "Evet, Falorant, yeni oyuncuların temel mekanikleri, ajan yeteneklerini ve oyun hedeflerini öğrenmelerine yardımcı olacak bir eğitim modu sunar. Ayrıca, oyun becerilerinizi geliştirmek için rehberler bölümümüzü incelemenizi öneririz.",
+
+    "home.faq.q10": "Hata bildirmek veya geri bildirimde bulunmak için ne yapabilirim?",
+    "home.faq.a10": "Geri bildiriminize büyük önem veriyoruz! Hata raporlarını veya önerilerinizi iletişim sayfamızdan bize iletebilirsiniz. Oyunu sürekli olarak güncelliyor ve topluluk geri bildirimlerini dikkate alarak Falorant deneyimini geliştiriyoruz.",
     "home.faq.viewAll": "Tüm SSS'leri Görüntüle",
 
     // =========== home share =========== //
@@ -1182,27 +1196,6 @@ export const labels = {
     "faq.contact.description": "Aradığınızı bulamıyor musunuz? Destek ekibimiz yardıma hazır.",
     "faq.contact.button": "Destek ile İletişime Geçin",
     
-    "home.faq.title": "Sıkça Sorulan Sorular",
-    "home.faq.q1": "Falorant'ta kaç ajan var?",
-    "home.faq.a1": "Falorant'ta şu anda her biri benzersiz yeteneklere ve oyun stiline sahip 15 oynanabilir ajan bulunmaktadır.",
-    "home.faq.q2": "Falorant'ı mobil cihazda oynayabilir miyim?",
-    "home.faq.a2": "Şu anda hayır, Falorant şu anda yalnızca PC'de mevcuttur, ancak gelecekte bir mobil sürüm planlanmaktadır.",
-    "home.faq.q3": "Falorant'ta ekonomi nasıl çalışır?",
-    "home.faq.a3": "Oyuncular turları kazanarak, kaybederek ve öldürerek kredi kazanır, bu krediler silah, zırh ve yetenekler için harcanabilir.",
-    "home.faq.q4": "Falorant oynamak ücretsiz mi?",
-    "home.faq.a4": "Evet, Falorant ücretsiz bir oyundur, ancak kozmetik öğeler satın almak için oyun içi satın alımlar mevcuttur.",
-    "home.faq.q5": "Falorant'ta kaç harita var?",
-    "home.faq.a5": "Falorant'ta şu anda her biri benzersiz düzenlere ve stratejik fırsatlara sahip 7 harita bulunmaktadır.",
-    "home.faq.q6": "Yetenekler nasıl açılır?",
-    "home.faq.a6": "Ajan yetenekleri ya her turun başında satın alınır ya da Ultimate yetenekler için, puan biriktirerek şarj olurlar.",
-    "home.faq.q7": "Sıralama sistemi nasıl çalışır?",
-    "home.faq.a7": "Oyuncular 10 yerleştirme maçını tamamladıktan sonra bir rütbe alır ve ardından kazanma/kaybetme ve bireysel performansa göre yukarı veya aşağı hareket ederler.",
-    "home.faq.q8": "Falorant'ı Mac'te oynayabilir miyim?",
-    "home.faq.a8": "Evet, Falorant hem Windows hem de Mac'te mevcuttur, ancak Mac sürümü optimize edilmiş performans gerektirebilir.",
-    "home.faq.q9": "Yeni oyuncular için eğitimler var mı?",
-    "home.faq.a9": "Evet, Falorant'ta yeni oyunculara temel mekanikleri ve oynanışı öğreten kapsamlı bir eğitim sistemi bulunmaktadır.",
-    "home.faq.q10": "Hataları veya hilecileri nasıl bildirebilirim?",
-    "home.faq.a10": "Oyun içi raporlama sistemini kullanabilir veya web sitemiz aracılığıyla bir destek bileti gönderebilirsiniz.",
-    "home.faq.viewAll": "Tüm SSS'leri Görüntüle"
+    
   }
 } as const;
