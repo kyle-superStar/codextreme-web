@@ -1,0 +1,51 @@
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": "Dragonsweeper",
+      "description": "A free strategy web game that blends Minesweeper-like deduction with RPG elements. Explore a monster-filled dungeon, make logical choices based on numbers, level up your character Jorge, and strategize to defeat the final dragon.",
+      "url": "https://dragonsweeper.info",
+      "image": "https://dragonsweeper.info/social_card.png", // 这是一个推测的或常见的图片路径，请替换为网站上实际代表游戏的图片URL
+      "gamePlatform": [
+        {
+          "@type": "http://schema.org/WebBrowser",
+          "operatingSystem": "Any" // 网页游戏可在任何操作系统上的浏览器中运行
+        },
+        {
+          "@type": "http://schema.org/SoftwareApplication",
+          "operatingSystem": "Windows", // 根据搜索结果，似乎有Windows版本或下载方式
+          "applicationCategory": "Game"
+          // 如果有Mac/Linux版本，可以继续添加
+        }
+      ],
+      "applicationCategory": "Game", // 游戏类别
+      "genre": ["StrategyGame", "PuzzleGame", "Roguelike", "LogicGame"], // 游戏类型
+      "playMode": "SinglePlayer", // 单人游戏
+      "publisher": {
+        "@type": "Person", // 开发者也是发布者，使用Person类型
+        "name": "Daniel Benmergui" // 根据搜索结果确认的开发者/发布者名称
+        // 如果Daniel Benmergui有个人网站或社交媒体可用于sameAs，可以在这里添加
+        // "sameAs": "URL_to_Daniel_Benmergui_profile"
+      },
+      "creator": { // 开发者
+        "@type": "Person",
+        "name": "Daniel Benmergui"
+      },
+      "offers": { // 描述游戏的获取方式 (免费)
+        "@type": "Offer",
+        "price": "0", // 价格为0
+        "priceCurrency": "USD", // 货币类型，对于免费游戏可以写常用货币或省略
+        "itemAvailability": "https://schema.org/InStock", // 表示有库存，即可以获取
+        "url": "https://dragonsweeper.info" // 获取（玩）游戏的链接
+      },
+      "sameAs": [ // 链接到其他代表或提及该游戏的权威页面
+        // "https://danielben.itch.io/dragonsweeper", // 开发者在itch.io上的游戏页面，非常重要
+        // "https://thinkygames.com/games/dragonsweeper/", // 在独立游戏收录网站上的页面
+        // "https://www.producthunt.com/products/dragonsweeper" // 在Product Hunt上的页面
+        // 你可以根据实际情况添加更多链接，例如：
+        // "（游戏如果有的）官方Twitter账号URL",
+        // "（游戏如果有的）官方Facebook页面URL",
+        // "游戏在特定游戏社区或论坛的官方帖子的URL"
+      ]
+    }
+    </script>

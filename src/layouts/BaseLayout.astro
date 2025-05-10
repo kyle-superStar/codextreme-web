@@ -3,6 +3,7 @@ import "@/styles/tailwind.css";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 import Analytics from "@/components/Analytics.astro";
+import Ldjson from "@/components/Ldjson.astro";
 
 import { languageList } from "@/i18n/ui";
 import { useTranslations } from "@/i18n/utils";
@@ -27,6 +28,9 @@ const langPath = currentLang === "en" ? "" : `/${currentLang}`;
 
     <!-- 第三方分析脚本 -->
     <Analytics />
+    
+    <!-- schema json -->
+    <Ldjson />
 
     <!-- Canonical URL -->
     <link 
