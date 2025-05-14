@@ -29,8 +29,7 @@ const langPath = currentLang === "en" ? "" : `/${currentLang}`;
     <!-- 第三方分析脚本 -->
     <Analytics />
     
-    <!-- schema json -->
-    <Ldjson />
+   
 
     <!-- Canonical URL -->
     <link 
@@ -88,20 +87,8 @@ const langPath = currentLang === "en" ? "" : `/${currentLang}`;
     <meta name="theme-color" content="#6B5B95" />
 
     <!-- Schema Markup JSON-LD -->
-    <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "WebSite",
-        "url": "https://www.codextreme.me",
-        "name": "CodeXtremeOS",
-        "description": "La mejor versión de Windows modificada para gaming y máximo rendimiento.",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://www.codextreme.me/buscar?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      }
-    </script>
+    <Ldjson />
+    
   </head>
   <body
     class="bg-gradient-to-br from-gray-900 to-gray-800 text-gray-100 pt-20 min-h-screen"
